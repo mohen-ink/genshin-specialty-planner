@@ -1,0 +1,3672 @@
+{
+  "metadata": {
+    "schemaVersion": 1,
+    "packageName": "genshin-db",
+    "packageVersion": "5.2.12",
+    "gameVersion": "6.7",
+    "language": "ChineseSimplified",
+    "imageBase": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/",
+    "characterCount": 118,
+    "regionalSpecialtyCount": 57,
+    "generatedAt": "2026-08-09T10:54:13.444Z"
+  },
+  "characters": [
+    {
+      "id": 10000002,
+      "key": "kamisatoayaka",
+      "name": "神里绫华",
+      "region": "稻妻",
+      "element": "冰",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Ayaka",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Ayaka.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ayaka.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ayaka.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Kamisato Ayaka_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101202,
+        "key": "sakurabloom",
+        "name": "绯樱绣球",
+        "type": "稻妻区域特产",
+        "description": "从鸣神大社的神樱上飘落的花瓣，怀着稻妻大地的眷顾。",
+        "icon": {
+          "filename": "UI_ItemIcon_101202",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101202.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101202.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000003,
+      "key": "jean",
+      "name": "琴",
+      "region": "蒙德",
+      "element": "风",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Qin",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Qin.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Qin.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Qin.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Jean_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100057,
+        "key": "dandelionseed",
+        "name": "蒲公英籽",
+        "type": "蒙德区域特产",
+        "description": "随风而行的细小种子。即使拔去了旅行的羽絮，其中也寄宿着远方的希望吧。",
+        "icon": {
+          "filename": "UI_ItemIcon_100057",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100057.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100057.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000005,
+      "key": "aether",
+      "name": "空",
+      "region": null,
+      "element": "无",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_PlayerBoy",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_PlayerBoy.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerBoy.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_PlayerBoy.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Traveler_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100024,
+        "key": "windwheelaster",
+        "name": "风车菊",
+        "type": "蒙德区域特产",
+        "description": "喜好风的植物。对于崇信风、本身也如风一般爽朗自在的蒙德人而言，风车菊便是「看得见的风」。",
+        "icon": {
+          "filename": "UI_ItemIcon_100024",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100024.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100024.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000006,
+      "key": "lisa",
+      "name": "丽莎",
+      "region": "蒙德",
+      "element": "雷",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Lisa",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Lisa.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Lisa.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lisa.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Lisa_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100022,
+        "key": "valberry",
+        "name": "落落莓",
+        "type": "蒙德区域特产",
+        "description": "饱满透亮的莓果，在口中绽放出清甜的花香。在过去，守望风暴的人仅有的慰藉便是落落莓的甜蜜与对城市安宁的希望。",
+        "icon": {
+          "filename": "UI_ItemIcon_100022",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100022.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100022.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000007,
+      "key": "lumine",
+      "name": "荧",
+      "region": null,
+      "element": "无",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_PlayerGirl",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_PlayerGirl.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerGirl.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_PlayerGirl.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Traveler_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100024,
+        "key": "windwheelaster",
+        "name": "风车菊",
+        "type": "蒙德区域特产",
+        "description": "喜好风的植物。对于崇信风、本身也如风一般爽朗自在的蒙德人而言，风车菊便是「看得见的风」。",
+        "icon": {
+          "filename": "UI_ItemIcon_100024",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100024.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100024.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000014,
+      "key": "barbara",
+      "name": "芭芭拉",
+      "region": "蒙德",
+      "element": "水",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Barbara",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Barbara.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Barbara.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Barbara.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Barbara_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100025,
+        "key": "philanemomushroom",
+        "name": "慕风蘑菇",
+        "type": "蒙德区域特产",
+        "description": "沐浴着和煦的风而生长的菌类，与风一样生生不息，滋养生命。",
+        "icon": {
+          "filename": "UI_ItemIcon_100025",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100025.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100025.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000015,
+      "key": "kaeya",
+      "name": "凯亚",
+      "region": "蒙德",
+      "element": "冰",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Kaeya",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Kaeya.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kaeya.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kaeya.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Kaeya_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100056,
+        "key": "callalily",
+        "name": "嘟嘟莲",
+        "type": "蒙德区域特产",
+        "description": "生长在水边的花。花瓣经过烹制口感爽脆，清甜微苦。",
+        "icon": {
+          "filename": "UI_ItemIcon_100056",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100056.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100056.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000016,
+      "key": "diluc",
+      "name": "迪卢克",
+      "region": "蒙德",
+      "element": "火",
+      "weapon": "双手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Diluc",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Diluc.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Diluc.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diluc.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Diluc_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100055,
+        "key": "smalllampgrass",
+        "name": "小灯草",
+        "type": "蒙德区域特产",
+        "description": "在夜间会隐隐散发辉光的野花。与其他食材一同烹饪能提升鲜味。",
+        "icon": {
+          "filename": "UI_ItemIcon_100055",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100055.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100055.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000020,
+      "key": "razor",
+      "name": "雷泽",
+      "region": "蒙德",
+      "element": "雷",
+      "weapon": "双手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Razor",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Razor.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Razor.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Razor.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Razor_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100021,
+        "key": "wolfhook",
+        "name": "钩钩果",
+        "type": "蒙德区域特产",
+        "description": "带着勾刺的莓果，会挂在狼的毛皮上来迁徙。看见它时，仿佛能听见狼的凄嚎在林间回荡…",
+        "icon": {
+          "filename": "UI_ItemIcon_100021",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100021.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100021.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000021,
+      "key": "amber",
+      "name": "安柏",
+      "region": "蒙德",
+      "element": "火",
+      "weapon": "弓",
+      "icon": {
+        "filename": "UI_AvatarIcon_Ambor",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Ambor.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ambor.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ambor.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Amber_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100055,
+        "key": "smalllampgrass",
+        "name": "小灯草",
+        "type": "蒙德区域特产",
+        "description": "在夜间会隐隐散发辉光的野花。与其他食材一同烹饪能提升鲜味。",
+        "icon": {
+          "filename": "UI_ItemIcon_100055",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100055.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100055.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000022,
+      "key": "venti",
+      "name": "温迪",
+      "region": "蒙德",
+      "element": "风",
+      "weapon": "弓",
+      "icon": {
+        "filename": "UI_AvatarIcon_Venti",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Venti.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Venti.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Venti.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Venti_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100023,
+        "key": "cecilia",
+        "name": "塞西莉亚花",
+        "type": "蒙德区域特产",
+        "description": "名字与外形同等美丽的花朵，只生长在清冷而风急的高处，如同浪子一样真心难以触碰。",
+        "icon": {
+          "filename": "UI_ItemIcon_100023",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100023.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100023.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000023,
+      "key": "xiangling",
+      "name": "香菱",
+      "region": "璃月",
+      "element": "火",
+      "weapon": "长柄武器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Xiangling",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Xiangling.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xiangling.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xiangling.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Xiangling_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100027,
+        "key": "jueyunchili",
+        "name": "绝云椒椒",
+        "type": "璃月区域特产",
+        "description": "璃月地方特产的辛辣植物。只要闻到它的味道，身体就会变得炽热，渴求水分。",
+        "icon": {
+          "filename": "UI_ItemIcon_100027",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100027.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100027.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000024,
+      "key": "beidou",
+      "name": "北斗",
+      "region": "璃月",
+      "element": "雷",
+      "weapon": "双手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Beidou",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Beidou.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Beidou.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Beidou.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Beidou_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100028,
+        "key": "noctilucousjade",
+        "name": "夜泊石",
+        "type": "璃月区域特产",
+        "description": "稀有的特质矿石，在静谧的暗夜里会幽幽地发光。据称是天地间奔流的元素在异变中凝聚成的珍奇宝石。",
+        "icon": {
+          "filename": "UI_ItemIcon_100028",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100028.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100028.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000025,
+      "key": "xingqiu",
+      "name": "行秋",
+      "region": "璃月",
+      "element": "水",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Xingqiu",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Xingqiu.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xingqiu.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xingqiu.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Xingqiu_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100029,
+        "key": "silkflower",
+        "name": "霓裳花",
+        "type": "璃月区域特产",
+        "description": "在璃月如霓云般盛放的妖红之花，能制成如水般顺滑的织物。",
+        "icon": {
+          "filename": "UI_ItemIcon_100029",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100029.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100029.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000026,
+      "key": "xiao",
+      "name": "魈",
+      "region": "璃月",
+      "element": "风",
+      "weapon": "长柄武器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Xiao",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Xiao.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xiao.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xiao.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Xiao_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100031,
+        "key": "qingxin",
+        "name": "清心",
+        "type": "璃月区域特产",
+        "description": "只生长在孤高石峰的通透白花。不愿接受平原的温暖与湿润，宁可在清冷的尖峰眺望远方。",
+        "icon": {
+          "filename": "UI_ItemIcon_100031",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100031.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100031.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000027,
+      "key": "ningguang",
+      "name": "凝光",
+      "region": "璃月",
+      "element": "岩",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Ningguang",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Ningguang.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ningguang.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ningguang.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Ningguang_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100030,
+        "key": "glazelily",
+        "name": "琉璃百合",
+        "type": "璃月区域特产",
+        "description": "极为古老的花卉。据说曾经遍布璃月大地，能将大地的记忆积攒成花期时的芬芳。",
+        "icon": {
+          "filename": "UI_ItemIcon_100030",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100030.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100030.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000029,
+      "key": "klee",
+      "name": "可莉",
+      "region": "蒙德",
+      "element": "火",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Klee",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Klee.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Klee.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Klee.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Klee_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100025,
+        "key": "philanemomushroom",
+        "name": "慕风蘑菇",
+        "type": "蒙德区域特产",
+        "description": "沐浴着和煦的风而生长的菌类，与风一样生生不息，滋养生命。",
+        "icon": {
+          "filename": "UI_ItemIcon_100025",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100025.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100025.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000030,
+      "key": "zhongli",
+      "name": "钟离",
+      "region": "璃月",
+      "element": "岩",
+      "weapon": "长柄武器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Zhongli",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Zhongli.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Zhongli.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Zhongli.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Zhongli_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100058,
+        "key": "corlapis",
+        "name": "石珀",
+        "type": "璃月区域特产",
+        "description": "极纯的岩元素凝成的珍稀晶石，常与其他矿物伴生。也被称为「岩之心」。",
+        "icon": {
+          "filename": "UI_ItemIcon_100058",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100058.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100058.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000031,
+      "key": "fischl",
+      "name": "菲谢尔",
+      "region": "蒙德",
+      "element": "雷",
+      "weapon": "弓",
+      "icon": {
+        "filename": "UI_AvatarIcon_Fischl",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Fischl.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Fischl.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Fischl.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Fischl_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100055,
+        "key": "smalllampgrass",
+        "name": "小灯草",
+        "type": "蒙德区域特产",
+        "description": "在夜间会隐隐散发辉光的野花。与其他食材一同烹饪能提升鲜味。",
+        "icon": {
+          "filename": "UI_ItemIcon_100055",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100055.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100055.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000032,
+      "key": "bennett",
+      "name": "班尼特",
+      "region": "蒙德",
+      "element": "火",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Bennett",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Bennett.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Bennett.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Bennett.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Bennett_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100024,
+        "key": "windwheelaster",
+        "name": "风车菊",
+        "type": "蒙德区域特产",
+        "description": "喜好风的植物。对于崇信风、本身也如风一般爽朗自在的蒙德人而言，风车菊便是「看得见的风」。",
+        "icon": {
+          "filename": "UI_ItemIcon_100024",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100024.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100024.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000033,
+      "key": "tartaglia",
+      "name": "达达利亚",
+      "region": null,
+      "element": "水",
+      "weapon": "弓",
+      "icon": {
+        "filename": "UI_AvatarIcon_Tartaglia",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Tartaglia.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Tartaglia.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tartaglia.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Tartaglia_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100033,
+        "key": "starconch",
+        "name": "星螺",
+        "type": "璃月区域特产",
+        "description": "随着海潮来到沙滩上的螺。将耳朵凑近空壳，能听见海充满思念的呼唤。",
+        "icon": {
+          "filename": "UI_ItemIcon_100033",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100033.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100033.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000034,
+      "key": "noelle",
+      "name": "诺艾尔",
+      "region": "蒙德",
+      "element": "岩",
+      "weapon": "双手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Noel",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Noel.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Noel.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Noel.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Noelle_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100022,
+        "key": "valberry",
+        "name": "落落莓",
+        "type": "蒙德区域特产",
+        "description": "饱满透亮的莓果，在口中绽放出清甜的花香。在过去，守望风暴的人仅有的慰藉便是落落莓的甜蜜与对城市安宁的希望。",
+        "icon": {
+          "filename": "UI_ItemIcon_100022",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100022.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100022.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000035,
+      "key": "qiqi",
+      "name": "七七",
+      "region": "璃月",
+      "element": "冰",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Qiqi",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Qiqi.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Qiqi.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Qiqi.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Qiqi_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100034,
+        "key": "violetgrass",
+        "name": "琉璃袋",
+        "type": "璃月区域特产",
+        "description": "拥有旺盛生命力的小花，传说朝下盛开的花姿是为了守住它的香气。",
+        "icon": {
+          "filename": "UI_ItemIcon_100034",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100034.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100034.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000036,
+      "key": "chongyun",
+      "name": "重云",
+      "region": "璃月",
+      "element": "冰",
+      "weapon": "双手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Chongyun",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Chongyun.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Chongyun.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chongyun.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Chongyun_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100058,
+        "key": "corlapis",
+        "name": "石珀",
+        "type": "璃月区域特产",
+        "description": "极纯的岩元素凝成的珍稀晶石，常与其他矿物伴生。也被称为「岩之心」。",
+        "icon": {
+          "filename": "UI_ItemIcon_100058",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100058.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100058.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000037,
+      "key": "ganyu",
+      "name": "甘雨",
+      "region": "璃月",
+      "element": "冰",
+      "weapon": "弓",
+      "icon": {
+        "filename": "UI_AvatarIcon_Ganyu",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Ganyu.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ganyu.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ganyu.png",
+          "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/03/12/35428890/797ded201635d241d358c307e9e7417f_464481961971717418.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100031,
+        "key": "qingxin",
+        "name": "清心",
+        "type": "璃月区域特产",
+        "description": "只生长在孤高石峰的通透白花。不愿接受平原的温暖与湿润，宁可在清冷的尖峰眺望远方。",
+        "icon": {
+          "filename": "UI_ItemIcon_100031",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100031.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100031.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000038,
+      "key": "albedo",
+      "name": "阿贝多",
+      "region": "蒙德",
+      "element": "岩",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Albedo",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Albedo.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Albedo.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Albedo.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Albedo_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100023,
+        "key": "cecilia",
+        "name": "塞西莉亚花",
+        "type": "蒙德区域特产",
+        "description": "名字与外形同等美丽的花朵，只生长在清冷而风急的高处，如同浪子一样真心难以触碰。",
+        "icon": {
+          "filename": "UI_ItemIcon_100023",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100023.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100023.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000039,
+      "key": "diona",
+      "name": "迪奥娜",
+      "region": "蒙德",
+      "element": "冰",
+      "weapon": "弓",
+      "icon": {
+        "filename": "UI_AvatarIcon_Diona",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Diona.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Diona.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diona.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Diona_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100056,
+        "key": "callalily",
+        "name": "嘟嘟莲",
+        "type": "蒙德区域特产",
+        "description": "生长在水边的花。花瓣经过烹制口感爽脆，清甜微苦。",
+        "icon": {
+          "filename": "UI_ItemIcon_100056",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100056.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100056.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000041,
+      "key": "mona",
+      "name": "莫娜",
+      "region": "蒙德",
+      "element": "水",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Mona",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Mona.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mona.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mona.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Mona_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100025,
+        "key": "philanemomushroom",
+        "name": "慕风蘑菇",
+        "type": "蒙德区域特产",
+        "description": "沐浴着和煦的风而生长的菌类，与风一样生生不息，滋养生命。",
+        "icon": {
+          "filename": "UI_ItemIcon_100025",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100025.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100025.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000042,
+      "key": "keqing",
+      "name": "刻晴",
+      "region": "璃月",
+      "element": "雷",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Keqing",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Keqing.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Keqing.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Keqing.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Keqing_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100058,
+        "key": "corlapis",
+        "name": "石珀",
+        "type": "璃月区域特产",
+        "description": "极纯的岩元素凝成的珍稀晶石，常与其他矿物伴生。也被称为「岩之心」。",
+        "icon": {
+          "filename": "UI_ItemIcon_100058",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100058.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100058.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000043,
+      "key": "sucrose",
+      "name": "砂糖",
+      "region": "蒙德",
+      "element": "风",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Sucrose",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Sucrose.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sucrose.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sucrose.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Sucrose_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100024,
+        "key": "windwheelaster",
+        "name": "风车菊",
+        "type": "蒙德区域特产",
+        "description": "喜好风的植物。对于崇信风、本身也如风一般爽朗自在的蒙德人而言，风车菊便是「看得见的风」。",
+        "icon": {
+          "filename": "UI_ItemIcon_100024",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100024.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100024.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000044,
+      "key": "xinyan",
+      "name": "辛焱",
+      "region": "璃月",
+      "element": "火",
+      "weapon": "双手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Xinyan",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Xinyan.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xinyan.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xinyan.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Xinyan_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100034,
+        "key": "violetgrass",
+        "name": "琉璃袋",
+        "type": "璃月区域特产",
+        "description": "拥有旺盛生命力的小花，传说朝下盛开的花姿是为了守住它的香气。",
+        "icon": {
+          "filename": "UI_ItemIcon_100034",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100034.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100034.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000045,
+      "key": "rosaria",
+      "name": "罗莎莉亚",
+      "region": "蒙德",
+      "element": "冰",
+      "weapon": "长柄武器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Rosaria",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Rosaria.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Rosaria.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Rosaria.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Rosaria_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100022,
+        "key": "valberry",
+        "name": "落落莓",
+        "type": "蒙德区域特产",
+        "description": "饱满透亮的莓果，在口中绽放出清甜的花香。在过去，守望风暴的人仅有的慰藉便是落落莓的甜蜜与对城市安宁的希望。",
+        "icon": {
+          "filename": "UI_ItemIcon_100022",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100022.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100022.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000046,
+      "key": "hutao",
+      "name": "胡桃",
+      "region": "璃月",
+      "element": "火",
+      "weapon": "长柄武器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Hutao",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Hutao.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Hutao.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Hutao.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Hu Tao_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100029,
+        "key": "silkflower",
+        "name": "霓裳花",
+        "type": "璃月区域特产",
+        "description": "在璃月如霓云般盛放的妖红之花，能制成如水般顺滑的织物。",
+        "icon": {
+          "filename": "UI_ItemIcon_100029",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100029.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100029.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000047,
+      "key": "kaedeharakazuha",
+      "name": "枫原万叶",
+      "region": "稻妻",
+      "element": "风",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Kazuha",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Kazuha.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kazuha.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kazuha.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Kaedehara Kazuha_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101206,
+        "key": "seaganoderma",
+        "name": "海灵芝",
+        "type": "稻妻区域特产",
+        "description": "在某些特殊的海域中、岛屿上才会生长的特殊物种。虽然外形看起来像菌类，但其实是由软体生物分泌增生而成的。",
+        "icon": {
+          "filename": "UI_ItemIcon_101206",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101206.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101206.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000048,
+      "key": "yanfei",
+      "name": "烟绯",
+      "region": "璃月",
+      "element": "火",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Feiyan",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Feiyan.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Feiyan.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Feiyan.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Yanfei_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100028,
+        "key": "noctilucousjade",
+        "name": "夜泊石",
+        "type": "璃月区域特产",
+        "description": "稀有的特质矿石，在静谧的暗夜里会幽幽地发光。据称是天地间奔流的元素在异变中凝聚成的珍奇宝石。",
+        "icon": {
+          "filename": "UI_ItemIcon_100028",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100028.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100028.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000049,
+      "key": "yoimiya",
+      "name": "宵宫",
+      "region": "稻妻",
+      "element": "火",
+      "weapon": "弓",
+      "icon": {
+        "filename": "UI_AvatarIcon_Yoimiya",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Yoimiya.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yoimiya.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yoimiya.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Yoimiya_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101205,
+        "key": "nakuweed",
+        "name": "鸣草",
+        "type": "稻妻区域特产",
+        "description": "即使在无风的日子里，亦会随雷鸣之声隐隐振动的植物。看起来像是花瓣的结构其实是叶片的延伸，保护着脆弱的花朵。",
+        "icon": {
+          "filename": "UI_ItemIcon_101205",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101205.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101205.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000050,
+      "key": "thoma",
+      "name": "托马",
+      "region": "稻妻",
+      "element": "火",
+      "weapon": "长柄武器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Tohma",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Tohma.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Tohma.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tohma.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Thoma_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101209,
+        "key": "fluorescentfungus",
+        "name": "幽灯蕈",
+        "type": "稻妻区域特产",
+        "description": "如同夜灯般微微发光的蘑菇，其中蕴含着不可思议的力量。",
+        "icon": {
+          "filename": "UI_ItemIcon_101209",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101209.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101209.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000051,
+      "key": "eula",
+      "name": "优菈",
+      "region": "蒙德",
+      "element": "冰",
+      "weapon": "双手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Eula",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Eula.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Eula.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Eula.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Eula_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100057,
+        "key": "dandelionseed",
+        "name": "蒲公英籽",
+        "type": "蒙德区域特产",
+        "description": "随风而行的细小种子。即使拔去了旅行的羽絮，其中也寄宿着远方的希望吧。",
+        "icon": {
+          "filename": "UI_ItemIcon_100057",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100057.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100057.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000052,
+      "key": "raidenshogun",
+      "name": "雷电将军",
+      "region": "稻妻",
+      "element": "雷",
+      "weapon": "长柄武器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Shougun",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Shougun.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Shougun.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shougun.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Raiden Shogun_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101208,
+        "key": "amakumofruit",
+        "name": "天云草实",
+        "type": "稻妻区域特产",
+        "description": "生长在清籁岛的天云草结成的果实，贴在耳畔能听见微弱的电流声。",
+        "icon": {
+          "filename": "UI_ItemIcon_101208",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101208.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101208.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000053,
+      "key": "sayu",
+      "name": "早柚",
+      "region": "稻妻",
+      "element": "风",
+      "weapon": "双手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Sayu",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Sayu.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sayu.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sayu.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Sayu_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101203,
+        "key": "crystalmarrow",
+        "name": "晶化骨髓",
+        "type": "稻妻区域特产",
+        "description": "蕴含着「祟神」力量的晶体。冶炼时加入这种物质的话，能极大地提高钢铁制品的强度与韧性。",
+        "icon": {
+          "filename": "UI_ItemIcon_101203",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101203.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101203.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000054,
+      "key": "sangonomiyakokomi",
+      "name": "珊瑚宫心海",
+      "region": "稻妻",
+      "element": "水",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Kokomi",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Kokomi.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kokomi.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kokomi.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Sangonomiya Kokomi_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101207,
+        "key": "sangopearl",
+        "name": "珊瑚真珠",
+        "type": "稻妻区域特产",
+        "description": "与海祇的珊瑚相伴而生的宝珠，散发着月光般的丝丝凉意。",
+        "icon": {
+          "filename": "UI_ItemIcon_101207",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101207.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101207.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000055,
+      "key": "gorou",
+      "name": "五郎",
+      "region": "稻妻",
+      "element": "岩",
+      "weapon": "弓",
+      "icon": {
+        "filename": "UI_AvatarIcon_Gorou",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Gorou.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Gorou.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Gorou.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Gorou_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101207,
+        "key": "sangopearl",
+        "name": "珊瑚真珠",
+        "type": "稻妻区域特产",
+        "description": "与海祇的珊瑚相伴而生的宝珠，散发着月光般的丝丝凉意。",
+        "icon": {
+          "filename": "UI_ItemIcon_101207",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101207.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101207.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000056,
+      "key": "kujousara",
+      "name": "九条裟罗",
+      "region": "稻妻",
+      "element": "雷",
+      "weapon": "弓",
+      "icon": {
+        "filename": "UI_AvatarIcon_Sara",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Sara.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sara.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sara.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Kujou Sara_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101204,
+        "key": "dendrobium",
+        "name": "血斛",
+        "type": "稻妻区域特产",
+        "description": "在诗文中也被称为「赤蕊」的鲜艳植物，一度在稻妻列岛绝迹，如今在战场上再度重现。传说在血腥的战场上，它们开得格外妖艳。",
+        "icon": {
+          "filename": "UI_ItemIcon_101204",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101204.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101204.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000057,
+      "key": "aratakiitto",
+      "name": "荒泷一斗",
+      "region": "稻妻",
+      "element": "岩",
+      "weapon": "双手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Itto",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Itto.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Itto.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Itto.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Arataki Itto_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101201,
+        "key": "onikabuto",
+        "name": "鬼兜虫",
+        "type": "稻妻区域特产",
+        "description": "栖息在雷元素富集区域的奇异甲虫。与甲壳上宛如怒目而视的恶鬼之相相反，鬼兜虫其实非常温顺迟钝。",
+        "icon": {
+          "filename": "UI_ItemIcon_101201",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101201.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101201.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000058,
+      "key": "yaemiko",
+      "name": "八重神子",
+      "region": "稻妻",
+      "element": "雷",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Yae",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Yae.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yae.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yae.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Yae Miko_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101206,
+        "key": "seaganoderma",
+        "name": "海灵芝",
+        "type": "稻妻区域特产",
+        "description": "在某些特殊的海域中、岛屿上才会生长的特殊物种。虽然外形看起来像菌类，但其实是由软体生物分泌增生而成的。",
+        "icon": {
+          "filename": "UI_ItemIcon_101206",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101206.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101206.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000059,
+      "key": "shikanoinheizou",
+      "name": "鹿野院平藏",
+      "region": "稻妻",
+      "element": "风",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Heizo",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Heizo.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Heizo.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Heizo.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Shikanoin Heizou_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101201,
+        "key": "onikabuto",
+        "name": "鬼兜虫",
+        "type": "稻妻区域特产",
+        "description": "栖息在雷元素富集区域的奇异甲虫。与甲壳上宛如怒目而视的恶鬼之相相反，鬼兜虫其实非常温顺迟钝。",
+        "icon": {
+          "filename": "UI_ItemIcon_101201",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101201.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101201.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000060,
+      "key": "yelan",
+      "name": "夜兰",
+      "region": "璃月",
+      "element": "水",
+      "weapon": "弓",
+      "icon": {
+        "filename": "UI_AvatarIcon_Yelan",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Yelan.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yelan.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yelan.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Yelan_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100033,
+        "key": "starconch",
+        "name": "星螺",
+        "type": "璃月区域特产",
+        "description": "随着海潮来到沙滩上的螺。将耳朵凑近空壳，能听见海充满思念的呼唤。",
+        "icon": {
+          "filename": "UI_ItemIcon_100033",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100033.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100033.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000061,
+      "key": "kirara",
+      "name": "绮良良",
+      "region": "稻妻",
+      "element": "草",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Momoka",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Momoka.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Momoka.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Momoka.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/23/35428890/d1699810632f8c3bc8c1e8c8beb8250f_3141235252861584883.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101208,
+        "key": "amakumofruit",
+        "name": "天云草实",
+        "type": "稻妻区域特产",
+        "description": "生长在清籁岛的天云草结成的果实，贴在耳畔能听见微弱的电流声。",
+        "icon": {
+          "filename": "UI_ItemIcon_101208",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101208.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101208.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000062,
+      "key": "aloy",
+      "name": "埃洛伊",
+      "region": null,
+      "element": "冰",
+      "weapon": "弓",
+      "icon": {
+        "filename": "UI_AvatarIcon_Aloy",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Aloy.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Aloy.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Aloy.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/19/80830045/1fb2086af3c7933af37eda1ff9084317_163049704110308134.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101203,
+        "key": "crystalmarrow",
+        "name": "晶化骨髓",
+        "type": "稻妻区域特产",
+        "description": "蕴含着「祟神」力量的晶体。冶炼时加入这种物质的话，能极大地提高钢铁制品的强度与韧性。",
+        "icon": {
+          "filename": "UI_ItemIcon_101203",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101203.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101203.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000063,
+      "key": "shenhe",
+      "name": "申鹤",
+      "region": "璃月",
+      "element": "冰",
+      "weapon": "长柄武器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Shenhe",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Shenhe.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Shenhe.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shenhe.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Shenhe_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100031,
+        "key": "qingxin",
+        "name": "清心",
+        "type": "璃月区域特产",
+        "description": "只生长在孤高石峰的通透白花。不愿接受平原的温暖与湿润，宁可在清冷的尖峰眺望远方。",
+        "icon": {
+          "filename": "UI_ItemIcon_100031",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100031.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100031.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000064,
+      "key": "yunjin",
+      "name": "云堇",
+      "region": "璃月",
+      "element": "岩",
+      "weapon": "长柄武器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Yunjin",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Yunjin.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yunjin.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yunjin.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Yun Jin_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100030,
+        "key": "glazelily",
+        "name": "琉璃百合",
+        "type": "璃月区域特产",
+        "description": "极为古老的花卉。据说曾经遍布璃月大地，能将大地的记忆积攒成花期时的芬芳。",
+        "icon": {
+          "filename": "UI_ItemIcon_100030",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100030.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100030.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000065,
+      "key": "kukishinobu",
+      "name": "久岐忍",
+      "region": "稻妻",
+      "element": "雷",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Shinobu",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Shinobu.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Shinobu.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shinobu.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Kuki Shinobu_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101205,
+        "key": "nakuweed",
+        "name": "鸣草",
+        "type": "稻妻区域特产",
+        "description": "即使在无风的日子里，亦会随雷鸣之声隐隐振动的植物。看起来像是花瓣的结构其实是叶片的延伸，保护着脆弱的花朵。",
+        "icon": {
+          "filename": "UI_ItemIcon_101205",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101205.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101205.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000066,
+      "key": "kamisatoayato",
+      "name": "神里绫人",
+      "region": "稻妻",
+      "element": "水",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Ayato",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Ayato.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ayato.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ayato.png",
+          "https://bbs.hoyolab.com/hoyowiki/picture/character/Kamisato Ayato_icon.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101202,
+        "key": "sakurabloom",
+        "name": "绯樱绣球",
+        "type": "稻妻区域特产",
+        "description": "从鸣神大社的神樱上飘落的花瓣，怀着稻妻大地的眷顾。",
+        "icon": {
+          "filename": "UI_ItemIcon_101202",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101202.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101202.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000067,
+      "key": "collei",
+      "name": "柯莱",
+      "region": "须弥",
+      "element": "草",
+      "weapon": "弓",
+      "icon": {
+        "filename": "UI_AvatarIcon_Collei",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Collei.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Collei.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Collei.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/24/194600931/37a18b6b6865c59063003a9380f08225_7758071773430345954.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101213,
+        "key": "rukkhashavamushrooms",
+        "name": "树王圣体菇",
+        "type": "须弥区域特产",
+        "description": "如云海般层层叠叠生长的菌类，大多寄生于雨林深处的乔木之上。",
+        "icon": {
+          "filename": "UI_ItemIcon_101213",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101213.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101213.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000068,
+      "key": "dori",
+      "name": "多莉",
+      "region": "须弥",
+      "element": "雷",
+      "weapon": "双手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Dori",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Dori.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Dori.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dori.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/35428890/6539bea71efd0f839db897cfc4094362_3469125131800075941.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101217,
+        "key": "kalpalatalotus",
+        "name": "劫波莲",
+        "type": "须弥区域特产",
+        "description": "生长在山崖峭壁之上的攀援植物开出的花朵。被称为莲只是因为外形相似，本身和莲花并没有什么关系。",
+        "icon": {
+          "filename": "UI_ItemIcon_101217",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101217.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101217.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000069,
+      "key": "tighnari",
+      "name": "提纳里",
+      "region": "须弥",
+      "element": "草",
+      "weapon": "弓",
+      "icon": {
+        "filename": "UI_AvatarIcon_Tighnari",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Tighnari.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Tighnari.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tighnari.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/22/35428890/497dd6fac3d3c652a367c67428550747_306268558608889633.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101215,
+        "key": "nilotpalalotus",
+        "name": "月莲",
+        "type": "须弥区域特产",
+        "description": "生长于林中湿地，散发着同月亮一般皎洁光芒的花卉。只有在夜晚才会绽放。",
+        "icon": {
+          "filename": "UI_ItemIcon_101215",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101215.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101215.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000070,
+      "key": "nilou",
+      "name": "妮露",
+      "region": "须弥",
+      "element": "水",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Nilou",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Nilou.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Nilou.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nilou.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/10/35428890/586d726f9ebda3506c78beaaa41f13b6_5916447718992361520.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101214,
+        "key": "padisarah",
+        "name": "帕蒂沙兰",
+        "type": "须弥区域特产",
+        "description": "圣洁而高贵的花卉，对生长环境的要求十分苛刻。花蕊经过加工后可以制成珍贵的香料。",
+        "icon": {
+          "filename": "UI_ItemIcon_101214",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101214.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101214.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000071,
+      "key": "cyno",
+      "name": "赛诺",
+      "region": "须弥",
+      "element": "雷",
+      "weapon": "长柄武器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Cyno",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Cyno.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Cyno.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Cyno.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/28/77454259/e09e2bda5e022611fad0dea1bb6518bb_6757667565719577204.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101225,
+        "key": "scarab",
+        "name": "圣金虫",
+        "type": "须弥区域特产",
+        "description": "栖息在浩瀚沙海之中的顽强甲虫。甲壳上的金色纹路似乎暗示着它们与遍布沙漠的古老遗迹间存在某种渊源。",
+        "icon": {
+          "filename": "UI_ItemIcon_101225",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101225.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101225.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000072,
+      "key": "candace",
+      "name": "坎蒂丝",
+      "region": "须弥",
+      "element": "水",
+      "weapon": "长柄武器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Candace",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Candace.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Candace.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Candace.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/28/77454259/2f43da4ece9eabfbde6ec2fcc81b3bff_6412967003441390014.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101220,
+        "key": "hennaberry",
+        "name": "赤念果",
+        "type": "须弥区域特产",
+        "description": "在恶劣的沙漠环境中也能存活的植物所结的果子，赤红的果实在黄沙映衬下显得格外动人。",
+        "icon": {
+          "filename": "UI_ItemIcon_101220",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101220.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101220.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000073,
+      "key": "nahida",
+      "name": "纳西妲",
+      "region": "须弥",
+      "element": "草",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Nahida",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Nahida.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Nahida.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nahida.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/29/35428890/f29490bddc56b4a6773b6c5003bbb853_9091170755650648414.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101217,
+        "key": "kalpalatalotus",
+        "name": "劫波莲",
+        "type": "须弥区域特产",
+        "description": "生长在山崖峭壁之上的攀援植物开出的花朵。被称为莲只是因为外形相似，本身和莲花并没有什么关系。",
+        "icon": {
+          "filename": "UI_ItemIcon_101217",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101217.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101217.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000074,
+      "key": "layla",
+      "name": "莱依拉",
+      "region": "须弥",
+      "element": "冰",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Layla",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Layla.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Layla.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Layla.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/15/35428890/48a495acadaf37f12d0a7f653d85bd83_7085430198590697354.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101215,
+        "key": "nilotpalalotus",
+        "name": "月莲",
+        "type": "须弥区域特产",
+        "description": "生长于林中湿地，散发着同月亮一般皎洁光芒的花卉。只有在夜晚才会绽放。",
+        "icon": {
+          "filename": "UI_ItemIcon_101215",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101215.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101215.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000075,
+      "key": "wanderer",
+      "name": "流浪者",
+      "region": "须弥",
+      "element": "风",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Wanderer",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Wanderer.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Wanderer.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Wanderer.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/05/35428890/24d97a22be742fb732ea96f625d1faac_2495743636540582085.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101213,
+        "key": "rukkhashavamushrooms",
+        "name": "树王圣体菇",
+        "type": "须弥区域特产",
+        "description": "如云海般层层叠叠生长的菌类，大多寄生于雨林深处的乔木之上。",
+        "icon": {
+          "filename": "UI_ItemIcon_101213",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101213.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101213.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000076,
+      "key": "faruzan",
+      "name": "珐露珊",
+      "region": "须弥",
+      "element": "风",
+      "weapon": "弓",
+      "icon": {
+        "filename": "UI_AvatarIcon_Faruzan",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Faruzan.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Faruzan.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Faruzan.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/05/35428890/38c12ab46678a4008f83a0e46c900ef5_528211919348170763.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101220,
+        "key": "hennaberry",
+        "name": "赤念果",
+        "type": "须弥区域特产",
+        "description": "在恶劣的沙漠环境中也能存活的植物所结的果子，赤红的果实在黄沙映衬下显得格外动人。",
+        "icon": {
+          "filename": "UI_ItemIcon_101220",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101220.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101220.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000077,
+      "key": "yaoyao",
+      "name": "瑶瑶",
+      "region": "璃月",
+      "element": "草",
+      "weapon": "长柄武器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Yaoyao",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Yaoyao.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yaoyao.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yaoyao.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/01/15/35428890/5bc9df1fb67391e4c8080da3d855de53_8974356791001371659.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100027,
+        "key": "jueyunchili",
+        "name": "绝云椒椒",
+        "type": "璃月区域特产",
+        "description": "璃月地方特产的辛辣植物。只要闻到它的味道，身体就会变得炽热，渴求水分。",
+        "icon": {
+          "filename": "UI_ItemIcon_100027",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100027.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100027.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000078,
+      "key": "alhaitham",
+      "name": "艾尔海森",
+      "region": "须弥",
+      "element": "草",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Alhatham",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Alhatham.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Alhatham.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Alhatham.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/01/15/35428890/25249dd20b86c775fb35bdbbd805d9ec_8879881358376735994.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101222,
+        "key": "sandgreasepupa",
+        "name": "沙脂蛹",
+        "type": "须弥区域特产",
+        "description": "在沙漠深处流沙鳗鳗的繁殖地才能找到的枯壳。其坚硬的表壳是为了保护流沙鳗鳗的幼体，直到它们得以适应炎热干燥的沙漠环境而存在的。",
+        "icon": {
+          "filename": "UI_ItemIcon_101222",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101222.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101222.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000079,
+      "key": "dehya",
+      "name": "迪希雅",
+      "region": "须弥",
+      "element": "火",
+      "weapon": "双手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Dehya",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Dehya.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Dehya.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dehya.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/02/24/35428890/65b22311e1e38ffa45a4928d4005ecee_7076295870986871517.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101222,
+        "key": "sandgreasepupa",
+        "name": "沙脂蛹",
+        "type": "须弥区域特产",
+        "description": "在沙漠深处流沙鳗鳗的繁殖地才能找到的枯壳。其坚硬的表壳是为了保护流沙鳗鳗的幼体，直到它们得以适应炎热干燥的沙漠环境而存在的。",
+        "icon": {
+          "filename": "UI_ItemIcon_101222",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101222.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101222.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000080,
+      "key": "mika",
+      "name": "米卡",
+      "region": "蒙德",
+      "element": "冰",
+      "weapon": "长柄武器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Mika",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Mika.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mika.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mika.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/03/21/35428890/da13e3b1a2c6c0e5892b201cec735f9b_6392765476968311284.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100021,
+        "key": "wolfhook",
+        "name": "钩钩果",
+        "type": "蒙德区域特产",
+        "description": "带着勾刺的莓果，会挂在狼的毛皮上来迁徙。看见它时，仿佛能听见狼的凄嚎在林间回荡…",
+        "icon": {
+          "filename": "UI_ItemIcon_100021",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100021.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100021.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000081,
+      "key": "kaveh",
+      "name": "卡维",
+      "region": "须弥",
+      "element": "草",
+      "weapon": "双手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Kaveh",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Kaveh.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kaveh.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kaveh.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/02/35428890/2270aba02b92034d7d76b4426be8f53b_7062168821433378650.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101223,
+        "key": "mourningflower",
+        "name": "悼灵花",
+        "type": "须弥区域特产",
+        "description": "绽放在古老战场上的鲜红之花，即便在荒漠中也能顽强生长。低垂的花朵似乎是在哀悼曾在此牺牲的英灵。",
+        "icon": {
+          "filename": "UI_ItemIcon_101223",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101223.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101223.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000082,
+      "key": "baizhu",
+      "name": "白术",
+      "region": "璃月",
+      "element": "草",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Baizhuer",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Baizhuer.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Baizhuer.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Baizhuer.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/02/35428890/05599650d7f42e1c4adde373de6b297d_8001303176243726128.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100034,
+        "key": "violetgrass",
+        "name": "琉璃袋",
+        "type": "璃月区域特产",
+        "description": "拥有旺盛生命力的小花，传说朝下盛开的花姿是为了守住它的香气。",
+        "icon": {
+          "filename": "UI_ItemIcon_100034",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100034.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100034.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000083,
+      "key": "lynette",
+      "name": "琳妮特",
+      "region": "枫丹",
+      "element": "风",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Linette",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Linette.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Linette.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Linette.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/14/35428890/436e6f2b9b9006bfe511a98093259daf_7192025380861185061.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101235,
+        "key": "lumidoucebell",
+        "name": "柔灯铃",
+        "type": "枫丹区域特产",
+        "description": "静雅而清美的紫色花卉。其香清淡悠长、细腻柔和，因此常被用来制作名贵的香水。",
+        "icon": {
+          "filename": "UI_ItemIcon_101235",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101235.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101235.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000084,
+      "key": "lyney",
+      "name": "林尼",
+      "region": "枫丹",
+      "element": "火",
+      "weapon": "弓",
+      "icon": {
+        "filename": "UI_AvatarIcon_Liney",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Liney.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Liney.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Liney.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/11/35428890/e343d4442cc3b8e243f0d528bb715f75_1232011243947476013.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101236,
+        "key": "rainbowrose",
+        "name": "虹彩蔷薇",
+        "type": "枫丹区域特产",
+        "description": "纤婉而柔洁的粉色花卉。虽然被称作蔷薇，但本质上更接近百合。",
+        "icon": {
+          "filename": "UI_ItemIcon_101236",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101236.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101236.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000085,
+      "key": "freminet",
+      "name": "菲米尼",
+      "region": "枫丹",
+      "element": "冰",
+      "weapon": "双手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Freminet",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Freminet.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Freminet.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Freminet.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/03/35428890/8e44111a378f4e5379b8e7444e8c2daa_4713775899437074849.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101233,
+        "key": "romaritimeflower",
+        "name": "海露花",
+        "type": "枫丹区域特产",
+        "description": "幽淡而高贵的蓝色花卉。柔软的花蕊具备良好的吸水性和弹性，是诸多日用品的原材料。",
+        "icon": {
+          "filename": "UI_ItemIcon_101233",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101233.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101233.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000086,
+      "key": "wriothesley",
+      "name": "莱欧斯利",
+      "region": "枫丹",
+      "element": "冰",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Wriothesley",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Wriothesley.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Wriothesley.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Wriothesley.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/10/15/35428890/31a0eb2dec5d69ca8dd7616572136b8b_8886987124386670150.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101239,
+        "key": "subdetectionunit",
+        "name": "子探测单元",
+        "type": "枫丹区域特产",
+        "description": "枫丹科学院利用新型奇械构件生产的微型探测单元，原本用以监测各类环境数据。",
+        "icon": {
+          "filename": "UI_ItemIcon_101239",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101239.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101239.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000087,
+      "key": "neuvillette",
+      "name": "那维莱特",
+      "region": "枫丹",
+      "element": "水",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Neuvillette",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Neuvillette.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Neuvillette.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Neuvillette.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/26/35428890/0513aa7f482dbb4778545d02f94956fe_7540616405773975535.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101237,
+        "key": "lumitoile",
+        "name": "幽光星星",
+        "type": "枫丹区域特产",
+        "description": "在水中会发出柔浅微光的软体动物。大多攀附在水边或水下的人造建筑表面。",
+        "icon": {
+          "filename": "UI_ItemIcon_101237",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101237.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101237.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000088,
+      "key": "charlotte",
+      "name": "夏洛蒂",
+      "region": "枫丹",
+      "element": "冰",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Charlotte",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Charlotte.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Charlotte.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Charlotte.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/11/06/35428890/7bbbff3f35661a93b5091b1f17fae6c0_6927814687713967999.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101232,
+        "key": "berylconch",
+        "name": "苍晶螺",
+        "type": "枫丹区域特产",
+        "description": "散发着幽光的贝状结构。似乎是纯净的元素能量凝结而成的产物，而非某种生物的甲壳。",
+        "icon": {
+          "filename": "UI_ItemIcon_101232",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101232.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101232.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000089,
+      "key": "furina",
+      "name": "芙宁娜",
+      "region": "枫丹",
+      "element": "水",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Furina",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Furina.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Furina.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Furina.png",
+          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/11/06/35428890/263e5ea0784d182b393f67a7e24146a5_2961704185113948066.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101238,
+        "key": "lakelightlily",
+        "name": "湖光铃兰",
+        "type": "枫丹区域特产",
+        "description": "明澈而澄净的苍色花卉。生于水脉汇聚之处，其香清冷淡雅，辛凉柔婉。",
+        "icon": {
+          "filename": "UI_ItemIcon_101238",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101238.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101238.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000090,
+      "key": "chevreuse",
+      "name": "夏沃蕾",
+      "region": "枫丹",
+      "element": "火",
+      "weapon": "长柄武器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Chevreuse",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Chevreuse.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Chevreuse.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chevreuse.png",
+          "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/09/35428890/a846729f31f16a987a8696466ebabcc0_6857330048220230431.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101235,
+        "key": "lumidoucebell",
+        "name": "柔灯铃",
+        "type": "枫丹区域特产",
+        "description": "静雅而清美的紫色花卉。其香清淡悠长、细腻柔和，因此常被用来制作名贵的香水。",
+        "icon": {
+          "filename": "UI_ItemIcon_101235",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101235.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101235.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000091,
+      "key": "navia",
+      "name": "娜维娅",
+      "region": "枫丹",
+      "element": "岩",
+      "weapon": "双手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Navia",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Navia.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Navia.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Navia.png",
+          "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2023/12/18/35428890/3fc7580c01a9e622692402889706c4db_8301615651200775487.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101240,
+        "key": "springofthefirstdewdrop",
+        "name": "初露之源",
+        "type": "枫丹区域特产",
+        "description": "悬浮于莫尔泰区水体深处的清澈露滴，与常见的纯水造物不同，似乎凝聚着更为原始而纯粹的元素能量。",
+        "icon": {
+          "filename": "UI_ItemIcon_101240",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101240.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101240.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000092,
+      "key": "gaming",
+      "name": "嘉明",
+      "region": "璃月",
+      "element": "火",
+      "weapon": "双手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Gaming",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Gaming.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Gaming.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Gaming.png",
+          "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/29/35428890/b041ad23a9d6245efac952a9379c5114_8939761424130236195.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100033,
+        "key": "starconch",
+        "name": "星螺",
+        "type": "璃月区域特产",
+        "description": "随着海潮来到沙滩上的螺。将耳朵凑近空壳，能听见海充满思念的呼唤。",
+        "icon": {
+          "filename": "UI_ItemIcon_100033",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100033.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100033.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000093,
+      "key": "xianyun",
+      "name": "闲云",
+      "region": "璃月",
+      "element": "风",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Liuyun",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Liuyun.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Liuyun.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Liuyun.png",
+          "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/29/35428890/2c2be27f8876e9435ab8c8b933b8408c_7973851751945394462.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101241,
+        "key": "clearwaterjade",
+        "name": "清水玉",
+        "type": "璃月区域特产",
+        "description": "出产于沉玉谷的玉石。触感凉如清水，因此而得名。",
+        "icon": {
+          "filename": "UI_ItemIcon_101241",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101241.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101241.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000094,
+      "key": "chiori",
+      "name": "千织",
+      "region": "稻妻",
+      "element": "岩",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Chiori",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Chiori.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Chiori.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chiori.png",
+          "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/03/11/35428890/5470f90694af13476e49be7b8346e2b1_5366587928381003654.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101204,
+        "key": "dendrobium",
+        "name": "血斛",
+        "type": "稻妻区域特产",
+        "description": "在诗文中也被称为「赤蕊」的鲜艳植物，一度在稻妻列岛绝迹，如今在战场上再度重现。传说在血腥的战场上，它们开得格外妖艳。",
+        "icon": {
+          "filename": "UI_ItemIcon_101204",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101204.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101204.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000095,
+      "key": "sigewinne",
+      "name": "希格雯",
+      "region": "枫丹",
+      "element": "水",
+      "weapon": "弓",
+      "icon": {
+        "filename": "UI_AvatarIcon_Sigewinne",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Sigewinne.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sigewinne.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sigewinne.png",
+          "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/06/26/35428890/2d607aa4d729030ea04f79919257e311_1172370997840232141.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101233,
+        "key": "romaritimeflower",
+        "name": "海露花",
+        "type": "枫丹区域特产",
+        "description": "幽淡而高贵的蓝色花卉。柔软的花蕊具备良好的吸水性和弹性，是诸多日用品的原材料。",
+        "icon": {
+          "filename": "UI_ItemIcon_101233",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101233.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101233.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000096,
+      "key": "arlecchino",
+      "name": "阿蕾奇诺",
+      "region": null,
+      "element": "火",
+      "weapon": "长柄武器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Arlecchino",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Arlecchino.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Arlecchino.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Arlecchino.png",
+          "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/04/22/35428890/672e65470bfd14b664596c2a7f7eaaf8_7046130387894981792.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101236,
+        "key": "rainbowrose",
+        "name": "虹彩蔷薇",
+        "type": "枫丹区域特产",
+        "description": "纤婉而柔洁的粉色花卉。虽然被称作蔷薇，但本质上更接近百合。",
+        "icon": {
+          "filename": "UI_ItemIcon_101236",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101236.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101236.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000097,
+      "key": "sethos",
+      "name": "赛索斯",
+      "region": "须弥",
+      "element": "雷",
+      "weapon": "弓",
+      "icon": {
+        "filename": "UI_AvatarIcon_Sethos",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Sethos.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sethos.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sethos.png",
+          "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/06/04/35428890/cdb7abfcb86138e5b618946a5466d442_6414132746291261116.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101224,
+        "key": "trishiraite",
+        "name": "万相石",
+        "type": "须弥区域特产",
+        "description": "分布在荒原群山的深处，散发着异彩的特殊辉石，似乎是由混化的元素能量凝结而成的。",
+        "icon": {
+          "filename": "UI_ItemIcon_101224",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101224.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101224.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000098,
+      "key": "clorinde",
+      "name": "克洛琳德",
+      "region": "枫丹",
+      "element": "雷",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Clorinde",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Clorinde.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Clorinde.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Clorinde.png",
+          "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/06/04/35428890/770a66030815971c697ab81bc5436329_1296341861352728851.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101237,
+        "key": "lumitoile",
+        "name": "幽光星星",
+        "type": "枫丹区域特产",
+        "description": "在水中会发出柔浅微光的软体动物。大多攀附在水边或水下的人造建筑表面。",
+        "icon": {
+          "filename": "UI_ItemIcon_101237",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101237.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101237.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000099,
+      "key": "emilie",
+      "name": "艾梅莉埃",
+      "region": "枫丹",
+      "element": "草",
+      "weapon": "长柄武器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Emilie",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Emilie.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Emilie.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Emilie.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/07/31/87ad30965e0c1b45364fdccc51b3429d_6108610286145583716.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101238,
+        "key": "lakelightlily",
+        "name": "湖光铃兰",
+        "type": "枫丹区域特产",
+        "description": "明澈而澄净的苍色花卉。生于水脉汇聚之处，其香清冷淡雅，辛凉柔婉。",
+        "icon": {
+          "filename": "UI_ItemIcon_101238",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101238.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101238.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000100,
+      "key": "kachina",
+      "name": "卡齐娜",
+      "region": "纳塔",
+      "element": "岩",
+      "weapon": "长柄武器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Kachina",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Kachina.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kachina.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kachina.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/08/23/26925adb1092d29c8afdf46d92fad8bd_343637410022641529.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101249,
+        "key": "quenepaberry",
+        "name": "青蜜莓",
+        "type": "纳塔区域特产",
+        "description": "青蓝色的，汁液丰富的莓果。其果树大片生长在「悬木人」部族附近，是形态与火榴果相近的植物。",
+        "icon": {
+          "filename": "UI_ItemIcon_101249",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101249.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101249.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000101,
+      "key": "kinich",
+      "name": "基尼奇",
+      "region": "纳塔",
+      "element": "草",
+      "weapon": "双手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Kinich",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Kinich.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kinich.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kinich.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/09/12/0099e74b4d0c919f6feab4bade3ab748_5795733017114624391.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101250,
+        "key": "saurianclawsucculent",
+        "name": "肉龙掌",
+        "type": "纳塔区域特产",
+        "description": "形如巨大动物爪掌的多肉植物。",
+        "icon": {
+          "filename": "UI_ItemIcon_101250",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101250.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101250.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000102,
+      "key": "mualani",
+      "name": "玛拉妮",
+      "region": "纳塔",
+      "element": "水",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Mualani",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Mualani.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mualani.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mualani.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/08/26/f4c75caad42923eb91ee760aa2eb473a_7439123622315070718.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101247,
+        "key": "sprayfeathergill",
+        "name": "浪沫羽鳃",
+        "type": "纳塔区域特产",
+        "description": "生长在海边如羽状的特殊物种，看似是水草般的植物，实际上是形态特殊的水栖软体珊瑚。",
+        "icon": {
+          "filename": "UI_ItemIcon_101247",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101247.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101247.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000103,
+      "key": "xilonen",
+      "name": "希诺宁",
+      "region": "纳塔",
+      "element": "岩",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Xilonen",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Xilonen.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xilonen.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xilonen.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/09/25/b07074c2b9040516fd240b6b8d65c011_2487211347344319683.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101248,
+        "key": "brilliantchrysanthemum",
+        "name": "灼灼彩菊",
+        "type": "纳塔区域特产",
+        "description": "形如飘然羽翼的花，花瓣的姿态在风中无比悠然。",
+        "icon": {
+          "filename": "UI_ItemIcon_101248",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101248.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101248.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000104,
+      "key": "chasca",
+      "name": "恰斯卡",
+      "region": "纳塔",
+      "element": "风",
+      "weapon": "弓",
+      "icon": {
+        "filename": "UI_AvatarIcon_Chasca",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Chasca.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Chasca.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chasca.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/11/18/abe1192cc7aad45f6b273478dd5fa88a_4799372826012752249.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101253,
+        "key": "witheringpurpurbloom",
+        "name": "枯叶紫英",
+        "type": "纳塔区域特产",
+        "description": "叶片与花瓣呈现枯焦之态的花朵，常常能在流灰弥漫之处看到它。",
+        "icon": {
+          "filename": "UI_ItemIcon_101253",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101253.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101253.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000105,
+      "key": "ororon",
+      "name": "欧洛伦",
+      "region": "纳塔",
+      "element": "雷",
+      "weapon": "弓",
+      "icon": {
+        "filename": "UI_AvatarIcon_Olorun",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Olorun.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Olorun.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Olorun.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/11/18/e4830690f8b6a1ebb02cfbc8ce955671_8091252479018770784.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101252,
+        "key": "glowinghornshroom",
+        "name": "微光角菌",
+        "type": "纳塔区域特产",
+        "description": "在黑暗中微微发出光芒的菌类，因为形似暝视龙的角冠而被称为角菌。",
+        "icon": {
+          "filename": "UI_ItemIcon_101252",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101252.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101252.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000106,
+      "key": "mavuika",
+      "name": "玛薇卡",
+      "region": "纳塔",
+      "element": "火",
+      "weapon": "双手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Mavuika",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Mavuika.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mavuika.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mavuika.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/12/30/2f098b1f15854fd9dafc54998795a59e_864981592196815761.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101253,
+        "key": "witheringpurpurbloom",
+        "name": "枯叶紫英",
+        "type": "纳塔区域特产",
+        "description": "叶片与花瓣呈现枯焦之态的花朵，常常能在流灰弥漫之处看到它。",
+        "icon": {
+          "filename": "UI_ItemIcon_101253",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101253.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101253.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000107,
+      "key": "citlali",
+      "name": "茜特菈莉",
+      "region": "纳塔",
+      "element": "冰",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Citlali",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Citlali.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Citlali.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Citlali.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/12/27/c4ab2530bb8bbe3c0e811684f97ec124_6688582217610741079.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101249,
+        "key": "quenepaberry",
+        "name": "青蜜莓",
+        "type": "纳塔区域特产",
+        "description": "青蓝色的，汁液丰富的莓果。其果树大片生长在「悬木人」部族附近，是形态与火榴果相近的植物。",
+        "icon": {
+          "filename": "UI_ItemIcon_101249",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101249.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101249.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000108,
+      "key": "lanyan",
+      "name": "蓝砚",
+      "region": "璃月",
+      "element": "风",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Lanyan",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Lanyan.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Lanyan.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lanyan.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/01/17/02a299cec38b4ef4f21952c37a624258_5744396397316809821.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101241,
+        "key": "clearwaterjade",
+        "name": "清水玉",
+        "type": "璃月区域特产",
+        "description": "出产于沉玉谷的玉石。触感凉如清水，因此而得名。",
+        "icon": {
+          "filename": "UI_ItemIcon_101241",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101241.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101241.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000109,
+      "key": "yumemizukimizuki",
+      "name": "梦见月瑞希",
+      "region": "稻妻",
+      "element": "风",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Mizuki",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Mizuki.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mizuki.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mizuki.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/02/08/11662c12fb353d88bd2b20a2726c9f1c_8013472600677983943.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101206,
+        "key": "seaganoderma",
+        "name": "海灵芝",
+        "type": "稻妻区域特产",
+        "description": "在某些特殊的海域中、岛屿上才会生长的特殊物种。虽然外形看起来像菌类，但其实是由软体生物分泌增生而成的。",
+        "icon": {
+          "filename": "UI_ItemIcon_101206",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101206.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101206.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000110,
+      "key": "iansan",
+      "name": "伊安珊",
+      "region": "纳塔",
+      "element": "雷",
+      "weapon": "长柄武器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Iansan",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Iansan.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Iansan.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Iansan.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/03/25/dd9a200a86b792fb1b73ef1ee7de0911_2097378734184941134.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101255,
+        "key": "dracolite",
+        "name": "琉鳞石",
+        "type": "纳塔区域特产",
+        "description": "沉积在富含燃素的区域，逐渐形成的红色鳞状晶石，蕴含极高的热量。",
+        "icon": {
+          "filename": "UI_ItemIcon_101255",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101255.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101255.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000111,
+      "key": "varesa",
+      "name": "瓦雷莎",
+      "region": "纳塔",
+      "element": "雷",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Varesa",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Varesa.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Varesa.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Varesa.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/03/25/a54efe1bb7e82a589b9af44683a696ca_8635138146175164187.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101254,
+        "key": "skysplitgembloom",
+        "name": "云岩裂叶",
+        "type": "纳塔区域特产",
+        "description": "花叶的外侧犹如石质的奇特植物，在绽放后，会露出晶石一般的芯。",
+        "icon": {
+          "filename": "UI_ItemIcon_101254",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101254.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101254.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000112,
+      "key": "escoffier",
+      "name": "爱可菲",
+      "region": "枫丹",
+      "element": "冰",
+      "weapon": "长柄武器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Escoffier",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Escoffier.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Escoffier.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Escoffier.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/04/30/ddbc128157d69479f61747f0918f9e72_2470321636402108639.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101232,
+        "key": "berylconch",
+        "name": "苍晶螺",
+        "type": "枫丹区域特产",
+        "description": "散发着幽光的贝状结构。似乎是纯净的元素能量凝结而成的产物，而非某种生物的甲壳。",
+        "icon": {
+          "filename": "UI_ItemIcon_101232",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101232.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101232.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000113,
+      "key": "ifa",
+      "name": "伊法",
+      "region": "纳塔",
+      "element": "风",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Ifa",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Ifa.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ifa.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ifa.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/04/30/ce693d1e36aef5936b2d2db006605fc4_9036718103340803450.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101250,
+        "key": "saurianclawsucculent",
+        "name": "肉龙掌",
+        "type": "纳塔区域特产",
+        "description": "形如巨大动物爪掌的多肉植物。",
+        "icon": {
+          "filename": "UI_ItemIcon_101250",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101250.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101250.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000114,
+      "key": "skirk",
+      "name": "丝柯克",
+      "region": null,
+      "element": "冰",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_SkirkNew",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_SkirkNew.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_SkirkNew.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_SkirkNew.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/06/16/48dba0c10560a3ef573f17d97408b5a0_2527001828446746987.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101254,
+        "key": "skysplitgembloom",
+        "name": "云岩裂叶",
+        "type": "纳塔区域特产",
+        "description": "花叶的外侧犹如石质的奇特植物，在绽放后，会露出晶石一般的芯。",
+        "icon": {
+          "filename": "UI_ItemIcon_101254",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101254.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101254.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000115,
+      "key": "dahlia",
+      "name": "塔利雅",
+      "region": "蒙德",
+      "element": "水",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Dahlia",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Dahlia.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Dahlia.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dahlia.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/06/16/255dedc5048565aec2c5af510c6f74a5_7726536808309970424.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100056,
+        "key": "callalily",
+        "name": "嘟嘟莲",
+        "type": "蒙德区域特产",
+        "description": "生长在水边的花。花瓣经过烹制口感爽脆，清甜微苦。",
+        "icon": {
+          "filename": "UI_ItemIcon_100056",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100056.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100056.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000116,
+      "key": "ineffa",
+      "name": "伊涅芙",
+      "region": "挪德卡莱",
+      "element": "雷",
+      "weapon": "长柄武器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Ineffa",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Ineffa.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ineffa.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ineffa.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/07/28/7c221918444852e9a3c2ad609ccacea2_8687518447126752117.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101252,
+        "key": "glowinghornshroom",
+        "name": "微光角菌",
+        "type": "纳塔区域特产",
+        "description": "在黑暗中微微发出光芒的菌类，因为形似暝视龙的角冠而被称为角菌。",
+        "icon": {
+          "filename": "UI_ItemIcon_101252",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101252.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101252.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000119,
+      "key": "lauma",
+      "name": "菈乌玛",
+      "region": "挪德卡莱",
+      "element": "草",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Lauma",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Lauma.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Lauma.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lauma.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/09/08/b06e9ff48d57de4856f1a05b1199aae1_8565150401481594895.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101263,
+        "key": "moonfallsilver",
+        "name": "月落银",
+        "type": "挪德卡莱区域特产",
+        "description": "如月光一般明净无瑕的银白晶体，具有几乎完美的元素亲和力。\n在霜月之子的传承中，这种晶石于五百年前伴随月之少女一同诞生，被彼时的咏月使认为是从月上落下的馈赠，因此得名「月落银」。然而在至冬的编年者们记述的、更为古老的文献中，黄金国的遗胤自数千年前便在使用霜月纺就的秘银。两者之间的关联早已无从考证，唯一能确定的只有这种晶石如今依然被挪德卡莱的工匠们视为绝佳的元素力导体。",
+        "icon": {
+          "filename": "UI_ItemIcon_101263",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101263.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101263.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000120,
+      "key": "flins",
+      "name": "菲林斯",
+      "region": "挪德卡莱",
+      "element": "雷",
+      "weapon": "长柄武器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Flins",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Flins.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Flins.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Flins.png",
+          "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2025/09/29/35428890/f6feccecc61d2bf772461f057dfb41cd_5944664216414192017.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101261,
+        "key": "frostlampflower",
+        "name": "霜盏花",
+        "type": "挪德卡莱区域特产",
+        "description": "形如烛盏的花卉，多生长在水边，香气寒冽素净，有安神的功效。\n花蕊与花茎彼此相异的色彩被认为是两种不同的月矩力的象征，然而霜盏花却是极为罕有的、不会受到月矩力任何影响的植物，因此有时也会被霜月之子的追随者们视为无信者与叛离者的象征。\n据说五百年前的漆黑灾厄结束时，这种造型奇异的花朵才出现在大地上，但这种说法从未得到过严谨的考证。",
+        "icon": {
+          "filename": "UI_ItemIcon_101261",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101261.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101261.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000121,
+      "key": "aino",
+      "name": "爱诺",
+      "region": "挪德卡莱",
+      "element": "水",
+      "weapon": "双手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Aino",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Aino.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Aino.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Aino.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/09/09/4e58c851d6c947865026faa168db83bd_3944254802105067377.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101257,
+        "key": "portablebearing",
+        "name": "便携轴承",
+        "type": "挪德卡莱区域特产",
+        "description": "愚人众进驻挪德卡莱后大量制造的便携轴承单元。损耗过度的单元也会像失去用途的单位一样被抛弃。\n其中偶尔还会残存一些微弱的月矩力。由于难以仿造，有时也会被那夏镇的商人当作等价交换的凭物。\n也正是因为如此，据说曾经有人试图伪造过这些单元。最终似乎是因为伪造的成本高于它们作为一般等价物的价格而破产了。",
+        "icon": {
+          "filename": "UI_ItemIcon_101257",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101257.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101257.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000122,
+      "key": "nefer",
+      "name": "奈芙尔",
+      "region": "挪德卡莱",
+      "element": "草",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Nefer",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Nefer.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Nefer.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nefer.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/10/21/7557acebcb72b4d9912bcb0e6c92306a_3655566527985254987.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101263,
+        "key": "moonfallsilver",
+        "name": "月落银",
+        "type": "挪德卡莱区域特产",
+        "description": "如月光一般明净无瑕的银白晶体，具有几乎完美的元素亲和力。\n在霜月之子的传承中，这种晶石于五百年前伴随月之少女一同诞生，被彼时的咏月使认为是从月上落下的馈赠，因此得名「月落银」。然而在至冬的编年者们记述的、更为古老的文献中，黄金国的遗胤自数千年前便在使用霜月纺就的秘银。两者之间的关联早已无从考证，唯一能确定的只有这种晶石如今依然被挪德卡莱的工匠们视为绝佳的元素力导体。",
+        "icon": {
+          "filename": "UI_ItemIcon_101263",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101263.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101263.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000123,
+      "key": "durin",
+      "name": "杜林",
+      "region": "蒙德",
+      "element": "火",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Durin",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Durin.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Durin.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Durin.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/11/28/e3e2b8fcbff2f2f3cdcec6bbf04efa84_3327367670955368711.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101261,
+        "key": "frostlampflower",
+        "name": "霜盏花",
+        "type": "挪德卡莱区域特产",
+        "description": "形如烛盏的花卉，多生长在水边，香气寒冽素净，有安神的功效。\n花蕊与花茎彼此相异的色彩被认为是两种不同的月矩力的象征，然而霜盏花却是极为罕有的、不会受到月矩力任何影响的植物，因此有时也会被霜月之子的追随者们视为无信者与叛离者的象征。\n据说五百年前的漆黑灾厄结束时，这种造型奇异的花朵才出现在大地上，但这种说法从未得到过严谨的考证。",
+        "icon": {
+          "filename": "UI_ItemIcon_101261",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101261.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101261.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000124,
+      "key": "jahoda",
+      "name": "雅珂达",
+      "region": "挪德卡莱",
+      "element": "风",
+      "weapon": "弓",
+      "icon": {
+        "filename": "UI_AvatarIcon_Jahoda",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Jahoda.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Jahoda.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Jahoda.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/12/01/19708bac6eba4779a70908bf0bee70b1_1653339605275422455.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101257,
+        "key": "portablebearing",
+        "name": "便携轴承",
+        "type": "挪德卡莱区域特产",
+        "description": "愚人众进驻挪德卡莱后大量制造的便携轴承单元。损耗过度的单元也会像失去用途的单位一样被抛弃。\n其中偶尔还会残存一些微弱的月矩力。由于难以仿造，有时也会被那夏镇的商人当作等价交换的凭物。\n也正是因为如此，据说曾经有人试图伪造过这些单元。最终似乎是因为伪造的成本高于它们作为一般等价物的价格而破产了。",
+        "icon": {
+          "filename": "UI_ItemIcon_101257",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101257.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101257.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000125,
+      "key": "columbina",
+      "name": "哥伦比娅",
+      "region": "挪德卡莱",
+      "element": "水",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Columbina",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Columbina.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Columbina.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Columbina.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/01/13/80fa97679c8d1828fdd96c6aa9638632_4327573591148809640.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101268,
+        "key": "wintericelea",
+        "name": "冬凌草",
+        "type": "挪德卡莱区域特产",
+        "description": "生命力极其顽强的花草，即便历经风吹霜打，依旧在苦寒的冬日里迎风摇曳。",
+        "icon": {
+          "filename": "UI_ItemIcon_101266",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101266.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101266.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000126,
+      "key": "zibai",
+      "name": "兹白",
+      "region": null,
+      "element": "岩",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Zibai",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Zibai.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Zibai.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Zibai.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/01/29/72161f01ff431c9f099710f92c811454_1654176825175164246.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100030,
+        "key": "glazelily",
+        "name": "琉璃百合",
+        "type": "璃月区域特产",
+        "description": "极为古老的花卉。据说曾经遍布璃月大地，能将大地的记忆积攒成花期时的芬芳。",
+        "icon": {
+          "filename": "UI_ItemIcon_100030",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100030.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100030.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000127,
+      "key": "illuga",
+      "name": "叶洛亚",
+      "region": "挪德卡莱",
+      "element": "岩",
+      "weapon": "长柄武器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Illuga",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Illuga.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Illuga.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Illuga.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/01/29/d585407867aa47b4d925613cea9f00c2_5864597966579326880.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101269,
+        "key": "pineamber",
+        "name": "松珀香",
+        "type": "挪德卡莱区域特产",
+        "description": "古时覆盖挪德卡莱的参天巨木，流淌下的树脂凝结而成的宝石，散发着璀璨的色彩。",
+        "icon": {
+          "filename": "UI_ItemIcon_101269",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101269.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101269.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000128,
+      "key": "varka",
+      "name": "法尔伽",
+      "region": "蒙德",
+      "element": "风",
+      "weapon": "双手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Varka",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Varka.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Varka.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Varka.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/02/21/553feb81c3bbc5e3bc69a765e157c33f_8250978205515428490.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 100021,
+        "key": "wolfhook",
+        "name": "钩钩果",
+        "type": "蒙德区域特产",
+        "description": "带着勾刺的莓果，会挂在狼的毛皮上来迁徙。看见它时，仿佛能听见狼的凄嚎在林间回荡…",
+        "icon": {
+          "filename": "UI_ItemIcon_100021",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100021.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100021.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000129,
+      "key": "lohen",
+      "name": "洛恩",
+      "region": "蒙德",
+      "element": "冰",
+      "weapon": "长柄武器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Lohen",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Lohen.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Lohen.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lohen.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/04/14/690ceb63cf621d0f6e1f29cb5edaf7ec_1616935497353882034.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101272,
+        "key": "etherwingmoth",
+        "name": "空羽蛾",
+        "type": "蒙德区域特产",
+        "description": "闪耀着神圣金色光辉的奇异生命，如飞蛾般游曳在同样奇异的隙间。",
+        "icon": {
+          "filename": "UI_ItemIcon_101272",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101272.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101272.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000130,
+      "key": "linnea",
+      "name": "莉奈娅",
+      "region": "挪德卡莱",
+      "element": "岩",
+      "weapon": "弓",
+      "icon": {
+        "filename": "UI_AvatarIcon_Linnea",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Linnea.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Linnea.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Linnea.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/04/03/b73622caa3750012312c72437295ace3_6973976776946504804.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101272,
+        "key": "etherwingmoth",
+        "name": "空羽蛾",
+        "type": "蒙德区域特产",
+        "description": "闪耀着神圣金色光辉的奇异生命，如飞蛾般游曳在同样奇异的隙间。",
+        "icon": {
+          "filename": "UI_ItemIcon_101272",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101272.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101272.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000131,
+      "key": "nicole",
+      "name": "尼可",
+      "region": null,
+      "element": "火",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Nicole",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Nicole.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Nicole.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nicole.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/05/18/5e875ee63bca70ebeda64e6fa409d31b_5921156294699298125.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101269,
+        "key": "pineamber",
+        "name": "松珀香",
+        "type": "挪德卡莱区域特产",
+        "description": "古时覆盖挪德卡莱的参天巨木，流淌下的树脂凝结而成的宝石，散发着璀璨的色彩。",
+        "icon": {
+          "filename": "UI_ItemIcon_101269",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101269.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101269.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000132,
+      "key": "prune",
+      "name": "布伦妮",
+      "region": "蒙德",
+      "element": "风",
+      "weapon": "法器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Prune",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Prune.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Prune.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Prune.png",
+          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/05/19/51e83d3537b37acc3f422910fe5bef82_3083259311239382441.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101268,
+        "key": "wintericelea",
+        "name": "冬凌草",
+        "type": "挪德卡莱区域特产",
+        "description": "生命力极其顽强的花草，即便历经风吹霜打，依旧在苦寒的冬日里迎风摇曳。",
+        "icon": {
+          "filename": "UI_ItemIcon_101266",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101266.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101266.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10000133,
+      "key": "sandrone",
+      "name": "桑多涅",
+      "region": null,
+      "element": "冰",
+      "weapon": "双手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_MarionetteNew",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_MarionetteNew.png",
+        "fallbackUrls": [
+          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_MarionetteNew.png",
+          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_MarionetteNew.png"
+        ]
+      },
+      "regionalSpecialty": {
+        "id": 101239,
+        "key": "subdetectionunit",
+        "name": "子探测单元",
+        "type": "枫丹区域特产",
+        "description": "枫丹科学院利用新型奇械构件生产的微型探测单元，原本用以监测各类环境数据。",
+        "icon": {
+          "filename": "UI_ItemIcon_101239",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101239.png",
+          "fallbackUrls": [
+            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101239.png"
+          ]
+        }
+      }
+    }
+  ]
+}
