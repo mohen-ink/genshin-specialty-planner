@@ -98,7 +98,7 @@ export function PlanEditor({ characters, plan, unavailableCharacterIds, onClose,
         <div className="picker-toolbar">
           <label className="character-search">
             <span>⌕</span>
-            <input value={search} onChange={(event) => setSearch(event.target.value)} placeholder="搜索角色、特产、元素或武器" autoFocus />
+            <input value={search} onChange={(event) => setSearch(event.target.value)} placeholder="搜索角色、特产、元素或武器" />
           </label>
           <strong>{plan ? selectedCharacter ? `已选择：${selectedCharacter.name}` : "请选择一名角色" : `已选择 ${selectedIds.size} 名角色`}</strong>
         </div>
@@ -122,7 +122,12 @@ export function PlanEditor({ characters, plan, unavailableCharacterIds, onClose,
                 aria-pressed={selected}
                 disabled={unavailable}
               >
-                <SmartImage image={character.icon} alt="" />
+                <SmartImage
+                  image={character.icon}
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
                 <span className="character-option-copy">
                   <b>{character.name}</b>
                   <small>{character.region ?? "其他"} · {character.element}</small>

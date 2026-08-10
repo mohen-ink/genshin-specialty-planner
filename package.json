@@ -5,18 +5,34 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:tauri": "vite --mode tauri",
     "build": "tsc -b && vite build",
+    "build:tauri": "tsc -b && vite build --mode tauri",
     "preview": "vite preview",
+    "tauri": "tauri",
+    "desktop:dev": "tauri dev",
+    "desktop:build": "tauri build --bundles nsis",
+    "desktop:build:msi": "tauri build --bundles msi",
+    "android:init": "node scripts/tauri-android.mjs init --ci",
+    "android:dev": "node scripts/tauri-android.mjs dev",
+    "android:build": "node scripts/tauri-android.mjs build --apk",
+    "android:build:debug": "node scripts/tauri-android.mjs build --debug --target aarch64 --apk --ci",
+    "android:build:release": "npm run android:build -- --target aarch64 --ci && node scripts/sign-android-release.mjs",
+    "android:icons": "node scripts/sync-android-icons.mjs",
     "test": "vitest run",
     "test:smoke": "node scripts/smoke-test.mjs",
     "test:watch": "vitest",
-    "data:update": "node scripts/update-data.mjs"
+    "data:update": "node scripts/update-data.mjs",
+    "assets:sync": "node scripts/sync-native-assets.mjs"
   },
   "dependencies": {
+    "@tauri-apps/plugin-dialog": "^2.7.2",
+    "@tauri-apps/plugin-fs": "^2.5.1",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
   "devDependencies": {
+    "@tauri-apps/cli": "^2.11.4",
     "@types/node": "^26.2.0",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",

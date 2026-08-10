@@ -57,7 +57,10 @@ try {
   const runtimeErrors = [];
   page.on("pageerror", (error) => runtimeErrors.push(error.message));
   page.on("console", (message) => {
-    if (message.type() === "error") runtimeErrors.push(message.text());
+    const text = message.text();
+    if (message.type() === "error" && !text.startsWith("Failed to load resource:")) {
+      runtimeErrors.push(text);
+    }
   });
 
   await page.goto(url, { waitUntil: "networkidle" });

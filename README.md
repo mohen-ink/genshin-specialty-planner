@@ -17,6 +17,78 @@ npm run build
 
 构建结果位于 `dist/`，可部署到任意静态网站托管服务。
 
+## 桌面与 Android 客户端
+
+项目使用同一套 React + Vite 前端构建 Web、Windows 和 Android 版本。Tauri 代码位于 `src-tauri/`，现有 Web 构建命令保持不变。
+
+Windows 和 Android 客户端导出规划时会打开系统保存界面，并使用 Tauri 文件系统 API 直接写入 JSON；Web 版本仍使用浏览器下载。
+
+Web 与客户端使用独立构建结果：
+
+- `npm run build` 生成 `dist/`，图片继续使用 JSON 中的 CDN 地址；
+- `npm run build:tauri` 生成 `dist-tauri/`，优先加载打包在客户端中的原始 PNG，缺失时再回退 CDN。
+
+Windows 开发与构建：
+
+```bash
+npm run desktop:dev
+npm run desktop:build
+```
+
+默认生成 NSIS `.exe` 安装包。如需 MSI，可单独执行 `npm run desktop:build:msi`；首次构建 MSI 时 Tauri 会下载 WiX 工具。
+
+首次生成 Android 工程：
+
+```bash
+npm run android:init
+```
+
+Android 开发与构建：
+
+```bash
+npm run android:dev
+npm run android:build
+```
+
+生成适合本地安装测试的 arm64 调试 APK：
+
+```bash
+npm run android:build:debug
+```
+
+Android 构建需要 JDK、Android SDK 和 Android NDK。项目脚本会优先读取 `JAVA_HOME`、`ANDROID_HOME` 和 `NDK_HOME`，并可在 Windows 上自动发现 Android Studio 自带的 JBR 与默认 SDK/NDK 安装目录。
+
+Android 构建前会自动将 `src-tauri/icons/android/` 中的应用图标同步到 Gradle 工程。手动同步可执行：
+
+```bash
+npm run android:icons
+```
+
+## 客户端图片资源
+
+客户端资源快照位于 `native-assets/UI/`。它只会进入 `dist-tauri/`，不会进入 Cloudflare Pages 使用的 `dist/`。
+
+从工具包根目录的 `cdn-assets/UI/` 同步当前 JSON 实际引用的图片：
+
+```bash
+npm run assets:sync
+```
+
+同步脚本会：
+
+- 根据 `public/data/characters-regional-specialties.json` 收集图片文件名；
+- 校验每个源文件存在且具有 PNG 文件头；
+- 删除客户端快照中已经不再被 JSON 引用的 PNG；
+- 原样复制需要的图片，不进行压缩或格式转换。
+
+更新上游数据和图片后的建议顺序：
+
+```bash
+npm run data:update
+node ../scripts/download/downloadRegionalSpecialtyImages.js --input ./public/data/characters-regional-specialties.json --output ../cdn-assets/UI
+npm run assets:sync
+```
+
 ## 数据
 
 应用读取 `public/data/characters-regional-specialties.json`。该文件是只读角色目录，用户的规划和冷却记录保存在浏览器 `localStorage` 中。

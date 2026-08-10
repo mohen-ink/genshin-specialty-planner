@@ -1,8 +1,11 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type ChangeEvent } from "react";
+import { save } from "@tauri-apps/plugin-dialog";
+import { writeTextFile } from "@tauri-apps/plugin-fs";
 import { loadCatalog, createCharacterIndex } from "./catalog";
 import { buildSpecialtyTasks, createCooldown, createId, formatLiveCountdown } from "./domain";
 import { loadState, parseState, saveState, serializeState } from "./storage";
 import type { AppState, Catalog, Plan } from "./types";
+import { BackupDialog, type BackupDialogMode } from "./components/BackupDialog";
 import { ConfirmDialog } from "./components/ConfirmDialog";
 import { HelpDialog } from "./components/HelpDialog";
 import { PlanEditor, type PlanDraft } from "./components/PlanEditor";
@@ -10,6 +13,20 @@ import { SmartImage } from "./components/SmartImage";
 import { SpecialtyCard } from "./components/SpecialtyCard";
 
 type TaskFilter = "all" | "ready" | "cooling";
+
+function copyTextFallback(contents: string): boolean {
+  const field = document.createElement("textarea");
+  field.value = contents;
+  field.readOnly = true;
+  field.style.position = "fixed";
+  field.style.opacity = "0";
+  document.body.appendChild(field);
+  field.select();
+  field.setSelectionRange(0, contents.length);
+  const copied = document.execCommand("copy");
+  field.remove();
+  return copied;
+}
 
 function useClock(): { now: number; refresh: () => void } {
   const [now, setNow] = useState(Date.now());
@@ -33,6 +50,7 @@ function App() {
   const [taskFilter, setTaskFilter] = useState<TaskFilter>("all");
   const [editingPlan, setEditingPlan] = useState<Plan | "new" | null>(null);
   const [deletingPlan, setDeletingPlan] = useState<Plan | null>(null);
+  const [backupDialog, setBackupDialog] = useState<BackupDialogMode | null>(null);
   const [showHelp, setShowHelp] = useState(false);
   const [toast, setToast] = useState("");
   const importInputRef = useRef<HTMLInputElement>(null);
@@ -154,15 +172,65 @@ function App() {
     showToast(`已撤销 ${specialtyName} 的采集标记`);
   };
 
-  const exportBackup = () => {
-    const blob = new Blob([serializeState(state)], { type: "application/json" });
+  const exportBackup = async () => {
+    const contents = serializeState(state);
+    const filename = `提瓦特特产采集手帐-${new Date().toISOString().slice(0, 10)}.json`;
+
+    if (import.meta.env.MODE === "tauri") {
+      try {
+        const path = await save({
+          title: "导出规划备份",
+          defaultPath: filename,
+          filters: [{ name: "JSON", extensions: ["json"] }],
+        });
+        if (!path) return;
+        await writeTextFile(path, contents);
+        showToast("本地规划备份已经导出");
+      } catch (error) {
+        console.error("Could not export planner state", error);
+        showToast("导出失败，请重新选择保存位置");
+      }
+      return;
+    }
+
+    const blob = new Blob([contents], { type: "application/json" });
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = `提瓦特特产采集手帐-${new Date().toISOString().slice(0, 10)}.json`;
+    link.download = filename;
     link.click();
     URL.revokeObjectURL(url);
     showToast("本地规划备份已经导出");
+  };
+
+  const applyImportedBackup = (contents: string): boolean => {
+    try {
+      const imported = parseState(JSON.parse(contents));
+      if (!window.confirm(`导入将覆盖当前的 ${state.plans.length} 个规划和冷却记录，确定继续吗？`)) return false;
+      setState(imported);
+      setActivePlanId(null);
+      setBackupDialog(null);
+      showToast(`已导入 ${imported.plans.length} 个养成规划`);
+      return true;
+    } catch (error) {
+      showToast(error instanceof Error ? error.message : "无法导入这个备份");
+      return false;
+    }
+  };
+
+  const copyBackup = async (contents: string) => {
+    try {
+      const copied = copyTextFallback(contents);
+      if (!copied) {
+        if (!navigator.clipboard) throw new Error("Clipboard API is unavailable");
+        await navigator.clipboard.writeText(contents);
+      }
+      setBackupDialog(null);
+      showToast("备份 JSON 已复制");
+    } catch (error) {
+      console.error("Could not copy planner state", error);
+      showToast("自动复制失败，请长按文本框复制");
+    }
   };
 
   const importBackup = async (event: ChangeEvent<HTMLInputElement>) => {
@@ -170,11 +238,7 @@ function App() {
     event.target.value = "";
     if (!file) return;
     try {
-      const imported = parseState(JSON.parse(await file.text()));
-      if (!window.confirm(`导入将覆盖当前的 ${state.plans.length} 个规划和冷却记录，确定继续吗？`)) return;
-      setState(imported);
-      setActivePlanId(null);
-      showToast(`已导入 ${imported.plans.length} 个养成规划`);
+      applyImportedBackup(await file.text());
     } catch (error) {
       showToast(error instanceof Error ? error.message : "无法导入这个备份文件");
     }
@@ -204,8 +268,8 @@ function App() {
         <div><small>THE TRAVELER'S BOTANICAL NOTES</small><h1>旅行者的采集手帐</h1></div>
         <div className="masthead-actions">
           <span>数据版本 v{catalog.metadata.gameVersion}<small>仅保存在本地</small></span>
-          <button onClick={() => importInputRef.current?.click()}>导入</button>
-          <button onClick={exportBackup} disabled={state.plans.length === 0}>导出</button>
+          <button onClick={() => setBackupDialog("import")}>导入</button>
+          <button onClick={() => setBackupDialog("export")} disabled={state.plans.length === 0}>导出</button>
           <button className="help-button" onClick={() => setShowHelp(true)} aria-label="打开使用说明" title="使用说明">?</button>
           <input ref={importInputRef} type="file" accept="application/json,.json" hidden onChange={importBackup} />
         </div>
@@ -249,7 +313,7 @@ function App() {
                       </span>
                     </span>
                   </button>
-                  <div className="plan-actions"><button onClick={() => setEditingPlan(plan)} aria-label={`更换 ${character.name}`}>✎</button><button onClick={() => setDeletingPlan(plan)} aria-label={`移除 ${character.name}`}>×</button></div>
+                  <div className="plan-actions"><button onClick={() => setDeletingPlan(plan)} aria-label={`移除 ${character.name}`}>×</button></div>
                 </article>
               );
             })}
@@ -289,6 +353,23 @@ function App() {
       <footer className="site-footer">提瓦特特产采集手账 · Designed &amp; Built by mohen</footer>
 
       {editingPlan && <PlanEditor key={editingPlan === "new" ? "new" : editingPlan.id} characters={catalog.characters} plan={editingPlan === "new" ? undefined : editingPlan} unavailableCharacterIds={new Set(state.plans.map((plan) => plan.characterId))} onClose={() => setEditingPlan(null)} onSave={savePlan} />}
+      {backupDialog && (
+        <BackupDialog
+          mode={backupDialog}
+          exportContents={serializeState(state)}
+          onClose={() => setBackupDialog(null)}
+          onFileAction={() => {
+            if (backupDialog === "import") {
+              importInputRef.current?.click();
+            } else {
+              void exportBackup();
+            }
+            setBackupDialog(null);
+          }}
+          onImportText={applyImportedBackup}
+          onCopyText={(contents) => void copyBackup(contents)}
+        />
+      )}
       {deletingPlan && <ConfirmDialog title={`移除 ${deletingCharacter?.name ?? "这个角色"} 的便签？`} description="角色便签会从手帐中移除，但已经开始的特产冷却不会被删除。此操作无法撤销。" confirmLabel="移除便签" onCancel={() => setDeletingPlan(null)} onConfirm={deletePlan} />}
       {showHelp && <HelpDialog onClose={() => setShowHelp(false)} />}
       <div className={`toast ${toast ? "show" : ""}`} role="status" aria-live="polite">{toast}</div>

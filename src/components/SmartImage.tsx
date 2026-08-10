@@ -7,8 +7,18 @@ interface SmartImageProps extends Omit<ImgHTMLAttributes<HTMLImageElement>, "src
 
 export function SmartImage({ image, onError, ...props }: SmartImageProps) {
   const sources = useMemo(
-    () => [image.url, ...(image.fallbackUrls ?? [])].filter(Boolean),
-    [image.fallbackUrls, image.url],
+    () => {
+      const remoteSources = [image.url, ...(image.fallbackUrls ?? [])];
+      const localSource =
+        import.meta.env.MODE === "tauri"
+          ? `${import.meta.env.BASE_URL}native-assets/UI/${encodeURIComponent(image.filename)}.png`
+          : undefined;
+
+      return [localSource, ...remoteSources].filter(
+        (source): source is string => Boolean(source),
+      );
+    },
+    [image.fallbackUrls, image.filename, image.url],
   );
   const [sourceIndex, setSourceIndex] = useState(0);
 

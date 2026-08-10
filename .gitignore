@@ -1,7 +1,12 @@
 /demo/
 /node_modules/
 /dist/
+/dist-tauri/
 /.vite/
+/src-tauri/target/
+/src-tauri/gen/android/.gradle/
+/src-tauri/gen/android/local.properties
+/src-tauri/keys/
 *.local
 *.log
 .DS_Store

@@ -1,0 +1,43 @@
+{
+  "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
+  "productName": "提瓦特特产采集手帐",
+  "version": "0.1.0",
+  "identifier": "com.moproject.genshinspecialties",
+  "build": {
+    "frontendDist": "../dist-tauri",
+    "devUrl": "http://localhost:5173",
+    "beforeDevCommand": "npm run dev:tauri",
+    "beforeBuildCommand": "npm run build:tauri"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "提瓦特特产采集手帐",
+        "width": 1200,
+        "height": 800,
+        "minWidth": 360,
+        "minHeight": 600,
+        "center": true,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis"],
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "android": {
+      "debugApplicationIdSuffix": ".debug"
+    }
+  }
+}
