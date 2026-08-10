@@ -17,7 +17,7 @@ const unsignedApk = resolve(
 );
 const outputDir = resolve("dist-tauri", "android");
 const alignedApk = join(outputDir, "app-arm64-release-aligned.apk");
-const signedApk = join(outputDir, "特产采集手账_0.1.0_arm64-v8a.apk");
+const signedApk = join(outputDir, "genshin-specialties_0.1.0_arm64-v8a.apk");
 
 function readProperties(file) {
   const properties = {};
