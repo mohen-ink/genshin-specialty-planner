@@ -1,6 +1,17 @@
 # 提瓦特特产采集手帐
 
-一个根据角色规划区域特产采集、并记录 46 小时刷新冷却的纯前端 Web 应用。
+一个根据角色规划区域特产采集、并记录 46 小时刷新冷却的采集手帐，提供 Web、Windows 和 Android 三端版本。
+
+## 使用与数据迁移
+
+规划和采集冷却记录只保存在当前设备，不会自动同步。更换设备或在 Web、Windows、Android 三端之间迁移时，可以使用 JSON 备份：
+
+1. 在原设备点击 `导出`，选择 `复制 JSON`；
+2. 将完整 JSON 作为纯文本通过 QQ、微信等工具发送；
+3. 在目标设备点击 `导入`，选择 `粘贴 JSON`；
+4. 粘贴后确认导入。
+
+导入会覆盖目标设备现有的规划和冷却记录。保留目标设备数据时，请先导出一份备份。
 
 ## 开发
 
@@ -17,16 +28,21 @@ npm run build
 
 构建结果位于 `dist/`，可部署到任意静态网站托管服务。
 
-## 桌面与 Android 客户端
+## 三端版本
 
-项目使用同一套 React + Vite 前端构建 Web、Windows 和 Android 版本。Tauri 代码位于 `src-tauri/`，现有 Web 构建命令保持不变。
+项目提供以下使用方式：
 
-Windows 和 Android 客户端导出规划时会打开系统保存界面，并使用 Tauri 文件系统 API 直接写入 JSON；Web 版本仍使用浏览器下载。
+- Web：部署 `dist/` 到静态网站托管服务；
+- Windows：使用 NSIS 安装包，或直接运行便携版 EXE；
+- Android：安装仅支持 `arm64-v8a` 的已签名 APK。
 
-Web 与客户端使用独立构建结果：
+Windows 和 Android 使用系统文件选择器导入、导出 JSON；Web 使用浏览器下载和选择文件。
 
-- `npm run build` 生成 `dist/`，图片继续使用 JSON 中的 CDN 地址；
-- `npm run build:tauri` 生成 `dist-tauri/`，优先加载打包在客户端中的原始 PNG，缺失时再回退 CDN。
+开发与构建命令：
+
+```bash
+npm run build
+```
 
 Windows 开发与构建：
 
@@ -54,6 +70,12 @@ npm run android:build
 
 ```bash
 npm run android:build:debug
+```
+
+生成已签名的 arm64 发布 APK：
+
+```bash
+npm run android:build:release
 ```
 
 Android 构建需要 JDK、Android SDK 和 Android NDK。项目脚本会优先读取 `JAVA_HOME`、`ANDROID_HOME` 和 `NDK_HOME`，并可在 Windows 上自动发现 Android Studio 自带的 JBR 与默认 SDK/NDK 安装目录。
@@ -91,7 +113,7 @@ npm run assets:sync
 
 ## 数据
 
-应用读取 `public/data/characters-regional-specialties.json`。该文件是只读角色目录，用户的规划和冷却记录保存在浏览器 `localStorage` 中。
+应用读取 `public/data/characters-regional-specialties.json`。该文件是只读角色目录，用户的规划和冷却记录保存在当前 Web 浏览器或客户端设备中。
 
 在工具包目录结构中更新数据：
 
