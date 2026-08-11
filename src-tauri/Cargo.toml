@@ -1,6 +1,6 @@
 [package]
 name = "app"
-version = "0.1.0"
+version = "0.1.1"
 description = "提瓦特区域特产规划工具的 Windows 与 Android 客户端"
 authors = ["MoProject"]
 license = ""
