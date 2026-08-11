@@ -86,31 +86,6 @@ Android 构建前会自动将 `src-tauri/icons/android/` 中的应用图标同�
 npm run android:icons
 ```
 
-## 客户端图片资源
-
-客户端资源快照位于 `native-assets/UI/`。它只会进入 `dist-tauri/`，不会进入 Cloudflare Pages 使用的 `dist/`。
-
-从工具包根目录的 `cdn-assets/UI/` 同步当前 JSON 实际引用的图片：
-
-```bash
-npm run assets:sync
-```
-
-同步脚本会：
-
-- 根据 `public/data/characters-regional-specialties.json` 收集图片文件名；
-- 校验每个源文件存在且具有 PNG 文件头；
-- 删除客户端快照中已经不再被 JSON 引用的 PNG；
-- 原样复制需要的图片，不进行压缩或格式转换。
-
-更新上游数据和图片后的建议顺序：
-
-```bash
-npm run data:update
-node ../scripts/download/downloadRegionalSpecialtyImages.js --input ./public/data/characters-regional-specialties.json --output ../cdn-assets/UI
-npm run assets:sync
-```
-
 ## 数据
 
 应用读取 `public/data/characters-regional-specialties.json`。该文件是只读角色目录，用户的规划和冷却记录保存在当前 Web 浏览器或客户端设备中。
@@ -132,28 +107,6 @@ npm run data:update -- --root D:/path/to/genshin-db
 ```bash
 npm run data:update -- --root D:/path/to/genshin-db --image-base https://cdn.example.com/UI/
 ```
-
-## 图片与 CDN
-
-应用当前默认使用以下自建 CDN 作为图片主地址：
-
-```text
-https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/
-```
-
-角色头像和区域特产图标都支持加载失败后自动回退，加载顺序如下：
-
-1. 用户自建 CDN；
-2. `https://gi.yatta.moe/assets/UI/`；
-3. 角色已有的米游社或 HoYoWiki 图片地址（仅角色头像）。
-
-需要在单次数据更新中临时指定其他图片基础地址时：
-
-```bash
-npm run data:update -- --image-base https://cdn.example.com/UI/
-```
-
-也可以通过环境变量 `GENSHIN_IMAGE_BASE` 覆盖默认地址。导出数据会将自定义地址作为主地址，同时保留上述回退地址。
 
 ## 本地数据
 
