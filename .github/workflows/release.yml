@@ -74,15 +74,15 @@ jobs:
       - name: Build Windows NSIS installer
         run: npm run desktop:build
 
+      - name: Build signed Android arm64 APK
+        run: npm run android:build:release
+
       - name: Collect Windows portable executable
         shell: pwsh
         run: |
           $version = (Get-Content src-tauri/tauri.conf.json | ConvertFrom-Json).version
           New-Item -ItemType Directory -Force dist-tauri/windows | Out-Null
           Copy-Item -LiteralPath src-tauri/target/release/app.exe -Destination "dist-tauri/windows/genshin-specialties_${version}_x64.exe"
-
-      - name: Build signed Android arm64 APK
-        run: npm run android:build:release
 
       - name: Upload client artifacts
         uses: actions/upload-artifact@v4
