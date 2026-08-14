@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState, type FormEvent } from "react";
 import type { CatalogCharacter, Plan } from "../types";
 import { SmartImage } from "./SmartImage";
 
-export const REGION_ORDER = ["蒙德", "璃月", "稻妻", "须弥", "枫丹", "纳塔", "挪德卡莱", "其他"] as const;
+export const REGION_ORDER = ["蒙德", "璃月", "稻妻", "须弥", "枫丹", "纳塔", "挪德卡莱", "至冬", "其他"] as const;
 
 export interface PlanDraft {
   characterIds: number[];

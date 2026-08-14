@@ -96,17 +96,19 @@ npm run android:icons
 npm run data:update
 ```
 
-指定其他 `genshin-db` 目录：
+同步指定的上游分支或提交：
 
 ```bash
-npm run data:update -- --root D:/path/to/genshin-db
+npm run data:update -- --ref <branch-or-commit>
 ```
 
-以上参数也可以组合使用：
+设置 CDN 图片地址：
 
 ```bash
-npm run data:update -- --root D:/path/to/genshin-db --image-base https://cdn.example.com/UI/
+npm run data:update -- --image-base https://cdn.example.com/UI/
 ```
+
+更新会从 AnimeGameData 同步角色、升阶材料与简中本地化文本，并自动下载缺失图片、同步原生资源。详见工具包根目录的 README。
 
 ## 本地数据
 

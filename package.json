@@ -23,6 +23,7 @@
     "test:smoke": "node scripts/smoke-test.mjs",
     "test:watch": "vitest",
     "data:update": "node scripts/update-data.mjs",
+    "data:sync": "node ../scripts/sync/syncAnimeGameData.js",
     "assets:sync": "node scripts/sync-native-assets.mjs"
   },
   "dependencies": {

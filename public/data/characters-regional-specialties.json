@@ -1,14 +1,16 @@
 {
   "metadata": {
     "schemaVersion": 1,
-    "packageName": "genshin-db",
-    "packageVersion": "5.2.12",
-    "gameVersion": "6.7",
+    "packageName": "anime-game-data",
+    "packageVersion": "be8d439be0796208fa6533d7e9f3eefaa7ecab26",
+    "gameVersion": "7.0.0",
     "language": "ChineseSimplified",
     "imageBase": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/",
-    "characterCount": 118,
-    "regionalSpecialtyCount": 57,
-    "generatedAt": "2026-08-09T10:54:13.444Z"
+    "sourceRepository": "DimbreathBot/AnimeGameData",
+    "sourceCommit": "be8d439be0796208fa6533d7e9f3eefaa7ecab26",
+    "characterCount": 120,
+    "regionalSpecialtyCount": 59,
+    "generatedAt": "2026-08-14T03:24:30.010Z"
   },
   "characters": [
     {
@@ -21,11 +23,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Ayaka",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Ayaka.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ayaka.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ayaka.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Kamisato Ayaka_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101202,
@@ -36,9 +34,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101202",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101202.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101202.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -52,11 +48,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Qin",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Qin.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Qin.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Qin.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Jean_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100057,
@@ -67,9 +59,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100057",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100057.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100057.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -83,11 +73,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_PlayerBoy",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_PlayerBoy.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerBoy.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_PlayerBoy.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Traveler_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100024,
@@ -98,9 +84,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100024",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100024.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100024.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -114,11 +98,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Lisa",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Lisa.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Lisa.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lisa.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Lisa_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100022,
@@ -129,9 +109,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100022",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100022.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100022.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -145,11 +123,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_PlayerGirl",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_PlayerGirl.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_PlayerGirl.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_PlayerGirl.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Traveler_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100024,
@@ -160,9 +134,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100024",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100024.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100024.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -176,11 +148,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Barbara",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Barbara.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Barbara.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Barbara.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Barbara_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100025,
@@ -191,9 +159,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100025",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100025.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100025.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -207,11 +173,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Kaeya",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Kaeya.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kaeya.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kaeya.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Kaeya_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100056,
@@ -222,9 +184,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100056",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100056.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100056.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -238,11 +198,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Diluc",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Diluc.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Diluc.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diluc.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Diluc_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100055,
@@ -253,9 +209,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100055",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100055.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100055.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -269,11 +223,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Razor",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Razor.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Razor.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Razor.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Razor_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100021,
@@ -284,9 +234,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100021",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100021.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100021.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -300,11 +248,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Ambor",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Ambor.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ambor.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ambor.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Amber_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100055,
@@ -315,9 +259,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100055",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100055.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100055.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -331,11 +273,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Venti",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Venti.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Venti.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Venti.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Venti_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100023,
@@ -346,9 +284,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100023",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100023.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100023.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -362,11 +298,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Xiangling",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Xiangling.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xiangling.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xiangling.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Xiangling_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100027,
@@ -377,9 +309,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100027",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100027.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100027.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -393,11 +323,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Beidou",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Beidou.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Beidou.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Beidou.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Beidou_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100028,
@@ -408,9 +334,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100028",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100028.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100028.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -424,11 +348,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Xingqiu",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Xingqiu.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xingqiu.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xingqiu.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Xingqiu_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100029,
@@ -439,9 +359,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100029",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100029.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100029.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -455,11 +373,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Xiao",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Xiao.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xiao.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xiao.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Xiao_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100031,
@@ -470,9 +384,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100031",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100031.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100031.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -486,11 +398,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Ningguang",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Ningguang.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ningguang.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ningguang.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Ningguang_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100030,
@@ -501,9 +409,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100030",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100030.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100030.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -517,11 +423,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Klee",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Klee.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Klee.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Klee.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Klee_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100025,
@@ -532,9 +434,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100025",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100025.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100025.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -548,11 +448,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Zhongli",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Zhongli.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Zhongli.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Zhongli.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Zhongli_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100058,
@@ -563,9 +459,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100058",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100058.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100058.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -579,11 +473,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Fischl",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Fischl.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Fischl.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Fischl.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Fischl_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100055,
@@ -594,9 +484,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100055",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100055.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100055.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -610,11 +498,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Bennett",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Bennett.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Bennett.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Bennett.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Bennett_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100024,
@@ -625,9 +509,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100024",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100024.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100024.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -641,11 +523,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Tartaglia",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Tartaglia.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Tartaglia.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tartaglia.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Tartaglia_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100033,
@@ -656,9 +534,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100033",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100033.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100033.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -672,11 +548,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Noel",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Noel.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Noel.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Noel.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Noelle_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100022,
@@ -687,9 +559,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100022",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100022.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100022.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -703,11 +573,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Qiqi",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Qiqi.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Qiqi.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Qiqi.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Qiqi_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100034,
@@ -718,9 +584,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100034",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100034.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100034.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -734,11 +598,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Chongyun",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Chongyun.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Chongyun.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chongyun.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Chongyun_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100058,
@@ -749,9 +609,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100058",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100058.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100058.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -765,11 +623,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Ganyu",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Ganyu.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ganyu.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ganyu.png",
-          "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/03/12/35428890/797ded201635d241d358c307e9e7417f_464481961971717418.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100031,
@@ -780,9 +634,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100031",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100031.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100031.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -796,11 +648,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Albedo",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Albedo.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Albedo.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Albedo.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Albedo_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100023,
@@ -811,9 +659,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100023",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100023.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100023.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -827,11 +673,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Diona",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Diona.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Diona.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diona.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Diona_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100056,
@@ -842,9 +684,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100056",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100056.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100056.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -858,11 +698,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Mona",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Mona.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mona.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mona.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Mona_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100025,
@@ -873,9 +709,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100025",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100025.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100025.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -889,11 +723,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Keqing",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Keqing.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Keqing.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Keqing.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Keqing_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100058,
@@ -904,9 +734,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100058",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100058.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100058.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -920,11 +748,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Sucrose",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Sucrose.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sucrose.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sucrose.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Sucrose_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100024,
@@ -935,9 +759,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100024",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100024.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100024.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -951,11 +773,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Xinyan",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Xinyan.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xinyan.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xinyan.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Xinyan_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100034,
@@ -966,9 +784,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100034",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100034.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100034.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -982,11 +798,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Rosaria",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Rosaria.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Rosaria.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Rosaria.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Rosaria_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100022,
@@ -997,9 +809,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100022",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100022.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100022.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1013,11 +823,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Hutao",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Hutao.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Hutao.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Hutao.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Hu Tao_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100029,
@@ -1028,9 +834,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100029",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100029.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100029.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1044,11 +848,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Kazuha",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Kazuha.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kazuha.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kazuha.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Kaedehara Kazuha_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101206,
@@ -1059,9 +859,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101206",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101206.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101206.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1075,11 +873,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Feiyan",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Feiyan.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Feiyan.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Feiyan.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Yanfei_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100028,
@@ -1090,9 +884,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100028",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100028.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100028.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1106,11 +898,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Yoimiya",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Yoimiya.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yoimiya.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yoimiya.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Yoimiya_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101205,
@@ -1121,9 +909,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101205",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101205.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101205.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1137,11 +923,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Tohma",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Tohma.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Tohma.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tohma.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Thoma_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101209,
@@ -1152,9 +934,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101209",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101209.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101209.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1168,11 +948,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Eula",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Eula.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Eula.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Eula.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Eula_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100057,
@@ -1183,9 +959,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100057",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100057.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100057.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1199,11 +973,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Shougun",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Shougun.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Shougun.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shougun.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Raiden Shogun_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101208,
@@ -1214,9 +984,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101208",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101208.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101208.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1230,11 +998,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Sayu",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Sayu.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sayu.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sayu.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Sayu_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101203,
@@ -1245,9 +1009,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101203",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101203.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101203.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1261,11 +1023,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Kokomi",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Kokomi.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kokomi.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kokomi.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Sangonomiya Kokomi_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101207,
@@ -1276,9 +1034,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101207",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101207.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101207.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1292,11 +1048,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Gorou",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Gorou.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Gorou.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Gorou.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Gorou_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101207,
@@ -1307,9 +1059,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101207",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101207.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101207.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1323,11 +1073,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Sara",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Sara.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sara.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sara.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Kujou Sara_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101204,
@@ -1338,9 +1084,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101204",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101204.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101204.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1354,11 +1098,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Itto",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Itto.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Itto.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Itto.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Arataki Itto_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101201,
@@ -1369,9 +1109,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101201",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101201.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101201.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1385,11 +1123,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Yae",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Yae.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yae.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yae.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Yae Miko_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101206,
@@ -1400,9 +1134,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101206",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101206.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101206.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1416,11 +1148,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Heizo",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Heizo.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Heizo.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Heizo.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Shikanoin Heizou_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101201,
@@ -1431,9 +1159,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101201",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101201.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101201.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1447,11 +1173,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Yelan",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Yelan.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yelan.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yelan.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Yelan_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100033,
@@ -1462,9 +1184,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100033",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100033.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100033.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1478,11 +1198,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Momoka",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Momoka.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Momoka.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Momoka.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/23/35428890/d1699810632f8c3bc8c1e8c8beb8250f_3141235252861584883.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101208,
@@ -1493,9 +1209,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101208",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101208.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101208.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1509,11 +1223,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Aloy",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Aloy.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Aloy.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Aloy.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/19/80830045/1fb2086af3c7933af37eda1ff9084317_163049704110308134.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101203,
@@ -1524,9 +1234,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101203",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101203.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101203.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1540,11 +1248,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Shenhe",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Shenhe.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Shenhe.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shenhe.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Shenhe_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100031,
@@ -1555,9 +1259,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100031",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100031.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100031.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1571,11 +1273,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Yunjin",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Yunjin.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yunjin.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yunjin.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Yun Jin_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100030,
@@ -1586,9 +1284,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100030",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100030.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100030.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1602,11 +1298,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Shinobu",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Shinobu.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Shinobu.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shinobu.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Kuki Shinobu_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101205,
@@ -1617,9 +1309,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101205",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101205.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101205.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1633,11 +1323,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Ayato",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Ayato.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ayato.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ayato.png",
-          "https://bbs.hoyolab.com/hoyowiki/picture/character/Kamisato Ayato_icon.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101202,
@@ -1648,9 +1334,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101202",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101202.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101202.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1664,11 +1348,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Collei",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Collei.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Collei.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Collei.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/24/194600931/37a18b6b6865c59063003a9380f08225_7758071773430345954.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101213,
@@ -1679,9 +1359,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101213",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101213.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101213.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1695,11 +1373,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Dori",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Dori.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Dori.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dori.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/35428890/6539bea71efd0f839db897cfc4094362_3469125131800075941.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101217,
@@ -1710,9 +1384,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101217",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101217.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101217.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1726,11 +1398,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Tighnari",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Tighnari.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Tighnari.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tighnari.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/22/35428890/497dd6fac3d3c652a367c67428550747_306268558608889633.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101215,
@@ -1741,9 +1409,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101215",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101215.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101215.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1757,11 +1423,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Nilou",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Nilou.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Nilou.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nilou.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/10/35428890/586d726f9ebda3506c78beaaa41f13b6_5916447718992361520.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101214,
@@ -1772,9 +1434,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101214",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101214.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101214.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1788,11 +1448,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Cyno",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Cyno.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Cyno.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Cyno.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/28/77454259/e09e2bda5e022611fad0dea1bb6518bb_6757667565719577204.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101225,
@@ -1803,9 +1459,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101225",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101225.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101225.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1819,11 +1473,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Candace",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Candace.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Candace.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Candace.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/28/77454259/2f43da4ece9eabfbde6ec2fcc81b3bff_6412967003441390014.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101220,
@@ -1834,9 +1484,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101220",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101220.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101220.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1850,11 +1498,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Nahida",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Nahida.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Nahida.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nahida.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/29/35428890/f29490bddc56b4a6773b6c5003bbb853_9091170755650648414.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101217,
@@ -1865,9 +1509,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101217",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101217.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101217.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1881,11 +1523,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Layla",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Layla.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Layla.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Layla.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/15/35428890/48a495acadaf37f12d0a7f653d85bd83_7085430198590697354.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101215,
@@ -1896,9 +1534,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101215",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101215.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101215.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1912,11 +1548,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Wanderer",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Wanderer.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Wanderer.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Wanderer.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/05/35428890/24d97a22be742fb732ea96f625d1faac_2495743636540582085.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101213,
@@ -1927,9 +1559,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101213",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101213.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101213.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1943,11 +1573,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Faruzan",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Faruzan.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Faruzan.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Faruzan.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/05/35428890/38c12ab46678a4008f83a0e46c900ef5_528211919348170763.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101220,
@@ -1958,9 +1584,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101220",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101220.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101220.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -1974,11 +1598,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Yaoyao",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Yaoyao.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Yaoyao.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yaoyao.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/01/15/35428890/5bc9df1fb67391e4c8080da3d855de53_8974356791001371659.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100027,
@@ -1989,9 +1609,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100027",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100027.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100027.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2005,11 +1623,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Alhatham",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Alhatham.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Alhatham.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Alhatham.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/01/15/35428890/25249dd20b86c775fb35bdbbd805d9ec_8879881358376735994.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101222,
@@ -2020,9 +1634,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101222",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101222.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101222.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2036,11 +1648,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Dehya",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Dehya.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Dehya.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dehya.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/02/24/35428890/65b22311e1e38ffa45a4928d4005ecee_7076295870986871517.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101222,
@@ -2051,9 +1659,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101222",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101222.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101222.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2067,11 +1673,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Mika",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Mika.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mika.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mika.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/03/21/35428890/da13e3b1a2c6c0e5892b201cec735f9b_6392765476968311284.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100021,
@@ -2082,9 +1684,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100021",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100021.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100021.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2098,11 +1698,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Kaveh",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Kaveh.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kaveh.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kaveh.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/02/35428890/2270aba02b92034d7d76b4426be8f53b_7062168821433378650.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101223,
@@ -2113,9 +1709,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101223",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101223.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101223.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2129,11 +1723,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Baizhuer",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Baizhuer.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Baizhuer.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Baizhuer.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/02/35428890/05599650d7f42e1c4adde373de6b297d_8001303176243726128.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100034,
@@ -2144,9 +1734,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100034",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100034.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100034.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2160,11 +1748,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Linette",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Linette.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Linette.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Linette.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/14/35428890/436e6f2b9b9006bfe511a98093259daf_7192025380861185061.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101235,
@@ -2175,9 +1759,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101235",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101235.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101235.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2191,11 +1773,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Liney",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Liney.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Liney.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Liney.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/11/35428890/e343d4442cc3b8e243f0d528bb715f75_1232011243947476013.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101236,
@@ -2206,9 +1784,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101236",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101236.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101236.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2222,11 +1798,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Freminet",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Freminet.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Freminet.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Freminet.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/03/35428890/8e44111a378f4e5379b8e7444e8c2daa_4713775899437074849.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101233,
@@ -2237,9 +1809,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101233",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101233.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101233.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2253,11 +1823,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Wriothesley",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Wriothesley.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Wriothesley.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Wriothesley.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/10/15/35428890/31a0eb2dec5d69ca8dd7616572136b8b_8886987124386670150.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101239,
@@ -2268,9 +1834,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101239",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101239.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101239.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2284,11 +1848,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Neuvillette",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Neuvillette.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Neuvillette.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Neuvillette.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/26/35428890/0513aa7f482dbb4778545d02f94956fe_7540616405773975535.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101237,
@@ -2299,9 +1859,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101237",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101237.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101237.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2315,11 +1873,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Charlotte",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Charlotte.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Charlotte.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Charlotte.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/11/06/35428890/7bbbff3f35661a93b5091b1f17fae6c0_6927814687713967999.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101232,
@@ -2330,9 +1884,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101232",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101232.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101232.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2346,11 +1898,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Furina",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Furina.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Furina.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Furina.png",
-          "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/11/06/35428890/263e5ea0784d182b393f67a7e24146a5_2961704185113948066.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101238,
@@ -2361,9 +1909,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101238",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101238.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101238.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2377,11 +1923,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Chevreuse",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Chevreuse.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Chevreuse.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chevreuse.png",
-          "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/09/35428890/a846729f31f16a987a8696466ebabcc0_6857330048220230431.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101235,
@@ -2392,9 +1934,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101235",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101235.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101235.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2408,11 +1948,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Navia",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Navia.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Navia.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Navia.png",
-          "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2023/12/18/35428890/3fc7580c01a9e622692402889706c4db_8301615651200775487.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101240,
@@ -2423,9 +1959,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101240",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101240.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101240.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2439,11 +1973,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Gaming",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Gaming.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Gaming.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Gaming.png",
-          "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/29/35428890/b041ad23a9d6245efac952a9379c5114_8939761424130236195.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100033,
@@ -2454,9 +1984,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100033",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100033.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100033.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2470,11 +1998,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Liuyun",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Liuyun.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Liuyun.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Liuyun.png",
-          "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/29/35428890/2c2be27f8876e9435ab8c8b933b8408c_7973851751945394462.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101241,
@@ -2485,9 +2009,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101241",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101241.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101241.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2501,11 +2023,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Chiori",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Chiori.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Chiori.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chiori.png",
-          "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/03/11/35428890/5470f90694af13476e49be7b8346e2b1_5366587928381003654.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101204,
@@ -2516,9 +2034,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101204",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101204.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101204.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2532,11 +2048,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Sigewinne",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Sigewinne.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sigewinne.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sigewinne.png",
-          "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/06/26/35428890/2d607aa4d729030ea04f79919257e311_1172370997840232141.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101233,
@@ -2547,9 +2059,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101233",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101233.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101233.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2563,11 +2073,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Arlecchino",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Arlecchino.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Arlecchino.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Arlecchino.png",
-          "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/04/22/35428890/672e65470bfd14b664596c2a7f7eaaf8_7046130387894981792.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101236,
@@ -2578,9 +2084,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101236",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101236.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101236.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2594,11 +2098,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Sethos",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Sethos.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Sethos.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sethos.png",
-          "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/06/04/35428890/cdb7abfcb86138e5b618946a5466d442_6414132746291261116.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101224,
@@ -2609,9 +2109,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101224",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101224.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101224.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2625,11 +2123,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Clorinde",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Clorinde.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Clorinde.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Clorinde.png",
-          "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/06/04/35428890/770a66030815971c697ab81bc5436329_1296341861352728851.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101237,
@@ -2640,9 +2134,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101237",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101237.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101237.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2656,11 +2148,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Emilie",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Emilie.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Emilie.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Emilie.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/07/31/87ad30965e0c1b45364fdccc51b3429d_6108610286145583716.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101238,
@@ -2671,9 +2159,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101238",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101238.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101238.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2687,11 +2173,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Kachina",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Kachina.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kachina.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kachina.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/08/23/26925adb1092d29c8afdf46d92fad8bd_343637410022641529.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101249,
@@ -2702,9 +2184,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101249",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101249.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101249.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2718,11 +2198,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Kinich",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Kinich.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Kinich.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kinich.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/09/12/0099e74b4d0c919f6feab4bade3ab748_5795733017114624391.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101250,
@@ -2733,9 +2209,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101250",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101250.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101250.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2749,11 +2223,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Mualani",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Mualani.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mualani.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mualani.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/08/26/f4c75caad42923eb91ee760aa2eb473a_7439123622315070718.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101247,
@@ -2764,9 +2234,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101247",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101247.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101247.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2780,11 +2248,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Xilonen",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Xilonen.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Xilonen.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xilonen.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/09/25/b07074c2b9040516fd240b6b8d65c011_2487211347344319683.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101248,
@@ -2795,9 +2259,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101248",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101248.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101248.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2811,11 +2273,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Chasca",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Chasca.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Chasca.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chasca.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/11/18/abe1192cc7aad45f6b273478dd5fa88a_4799372826012752249.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101253,
@@ -2826,9 +2284,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101253",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101253.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101253.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2842,11 +2298,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Olorun",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Olorun.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Olorun.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Olorun.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/11/18/e4830690f8b6a1ebb02cfbc8ce955671_8091252479018770784.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101252,
@@ -2857,9 +2309,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101252",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101252.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101252.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2873,11 +2323,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Mavuika",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Mavuika.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mavuika.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mavuika.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/12/30/2f098b1f15854fd9dafc54998795a59e_864981592196815761.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101253,
@@ -2888,9 +2334,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101253",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101253.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101253.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2904,11 +2348,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Citlali",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Citlali.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Citlali.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Citlali.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/12/27/c4ab2530bb8bbe3c0e811684f97ec124_6688582217610741079.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101249,
@@ -2919,9 +2359,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101249",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101249.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101249.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2935,11 +2373,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Lanyan",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Lanyan.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Lanyan.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lanyan.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/01/17/02a299cec38b4ef4f21952c37a624258_5744396397316809821.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101241,
@@ -2950,9 +2384,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101241",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101241.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101241.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2966,11 +2398,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Mizuki",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Mizuki.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Mizuki.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mizuki.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/02/08/11662c12fb353d88bd2b20a2726c9f1c_8013472600677983943.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101206,
@@ -2981,9 +2409,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101206",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101206.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101206.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -2997,11 +2423,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Iansan",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Iansan.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Iansan.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Iansan.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/03/25/dd9a200a86b792fb1b73ef1ee7de0911_2097378734184941134.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101255,
@@ -3012,9 +2434,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101255",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101255.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101255.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -3028,11 +2448,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Varesa",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Varesa.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Varesa.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Varesa.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/03/25/a54efe1bb7e82a589b9af44683a696ca_8635138146175164187.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101254,
@@ -3043,9 +2459,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101254",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101254.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101254.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -3059,11 +2473,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Escoffier",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Escoffier.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Escoffier.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Escoffier.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/04/30/ddbc128157d69479f61747f0918f9e72_2470321636402108639.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101232,
@@ -3074,9 +2484,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101232",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101232.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101232.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -3090,11 +2498,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Ifa",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Ifa.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ifa.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ifa.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/04/30/ce693d1e36aef5936b2d2db006605fc4_9036718103340803450.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101250,
@@ -3105,9 +2509,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101250",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101250.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101250.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -3121,11 +2523,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_SkirkNew",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_SkirkNew.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_SkirkNew.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_SkirkNew.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/06/16/48dba0c10560a3ef573f17d97408b5a0_2527001828446746987.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101254,
@@ -3136,9 +2534,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101254",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101254.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101254.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -3152,11 +2548,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Dahlia",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Dahlia.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Dahlia.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dahlia.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/06/16/255dedc5048565aec2c5af510c6f74a5_7726536808309970424.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100056,
@@ -3167,9 +2559,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100056",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100056.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100056.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -3183,11 +2573,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Ineffa",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Ineffa.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Ineffa.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ineffa.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/07/28/7c221918444852e9a3c2ad609ccacea2_8687518447126752117.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101252,
@@ -3198,9 +2584,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101252",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101252.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101252.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -3214,11 +2598,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Lauma",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Lauma.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Lauma.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lauma.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/09/08/b06e9ff48d57de4856f1a05b1199aae1_8565150401481594895.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101263,
@@ -3229,9 +2609,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101263",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101263.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101263.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -3245,11 +2623,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Flins",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Flins.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Flins.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Flins.png",
-          "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2025/09/29/35428890/f6feccecc61d2bf772461f057dfb41cd_5944664216414192017.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101261,
@@ -3260,9 +2634,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101261",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101261.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101261.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -3276,11 +2648,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Aino",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Aino.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Aino.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Aino.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/09/09/4e58c851d6c947865026faa168db83bd_3944254802105067377.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101257,
@@ -3291,9 +2659,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101257",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101257.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101257.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -3307,11 +2673,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Nefer",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Nefer.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Nefer.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nefer.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/10/21/7557acebcb72b4d9912bcb0e6c92306a_3655566527985254987.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101263,
@@ -3322,9 +2684,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101263",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101263.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101263.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -3338,11 +2698,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Durin",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Durin.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Durin.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Durin.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/11/28/e3e2b8fcbff2f2f3cdcec6bbf04efa84_3327367670955368711.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101261,
@@ -3353,9 +2709,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101261",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101261.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101261.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -3369,11 +2723,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Jahoda",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Jahoda.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Jahoda.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Jahoda.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/12/01/19708bac6eba4779a70908bf0bee70b1_1653339605275422455.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101257,
@@ -3384,9 +2734,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101257",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101257.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101257.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -3400,11 +2748,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Columbina",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Columbina.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Columbina.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Columbina.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/01/13/80fa97679c8d1828fdd96c6aa9638632_4327573591148809640.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101268,
@@ -3415,9 +2759,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101266",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101266.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101266.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -3431,11 +2773,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Zibai",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Zibai.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Zibai.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Zibai.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/01/29/72161f01ff431c9f099710f92c811454_1654176825175164246.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100030,
@@ -3446,9 +2784,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100030",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100030.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100030.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -3462,11 +2798,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Illuga",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Illuga.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Illuga.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Illuga.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/01/29/d585407867aa47b4d925613cea9f00c2_5864597966579326880.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101269,
@@ -3477,9 +2809,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101269",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101269.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101269.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -3493,11 +2823,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Varka",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Varka.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Varka.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Varka.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/02/21/553feb81c3bbc5e3bc69a765e157c33f_8250978205515428490.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 100021,
@@ -3508,9 +2834,7 @@
         "icon": {
           "filename": "UI_ItemIcon_100021",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_100021.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_100021.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -3524,11 +2848,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Lohen",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Lohen.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Lohen.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lohen.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/04/14/690ceb63cf621d0f6e1f29cb5edaf7ec_1616935497353882034.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101272,
@@ -3539,9 +2859,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101272",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101272.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101272.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -3555,11 +2873,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Linnea",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Linnea.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Linnea.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Linnea.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/04/03/b73622caa3750012312c72437295ace3_6973976776946504804.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101272,
@@ -3570,9 +2884,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101272",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101272.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101272.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -3586,11 +2898,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Nicole",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Nicole.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Nicole.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nicole.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/05/18/5e875ee63bca70ebeda64e6fa409d31b_5921156294699298125.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101269,
@@ -3601,9 +2909,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101269",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101269.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101269.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -3617,11 +2923,7 @@
       "icon": {
         "filename": "UI_AvatarIcon_Prune",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Prune.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Prune.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Prune.png",
-          "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/05/19/51e83d3537b37acc3f422910fe5bef82_3083259311239382441.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101268,
@@ -3632,9 +2934,7 @@
         "icon": {
           "filename": "UI_ItemIcon_101266",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101266.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101266.png"
-          ]
+          "fallbackUrls": []
         }
       }
     },
@@ -3642,16 +2942,13 @@
       "id": 10000133,
       "key": "sandrone",
       "name": "桑多涅",
-      "region": null,
+      "region": "至冬",
       "element": "冰",
       "weapon": "双手剑",
       "icon": {
         "filename": "UI_AvatarIcon_MarionetteNew",
         "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_MarionetteNew.png",
-        "fallbackUrls": [
-          "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_MarionetteNew.png",
-          "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_MarionetteNew.png"
-        ]
+        "fallbackUrls": []
       },
       "regionalSpecialty": {
         "id": 101239,
@@ -3662,9 +2959,57 @@
         "icon": {
           "filename": "UI_ItemIcon_101239",
           "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101239.png",
-          "fallbackUrls": [
-            "https://gi.yatta.moe/assets/UI/UI_ItemIcon_101239.png"
-          ]
+          "fallbackUrls": []
+        }
+      }
+    },
+    {
+      "id": 10000148,
+      "key": "alyosha",
+      "name": "阿罗夏",
+      "region": "至冬",
+      "element": "雷",
+      "weapon": "长柄武器",
+      "icon": {
+        "filename": "UI_AvatarIcon_Alyosha",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Alyosha.png",
+        "fallbackUrls": []
+      },
+      "regionalSpecialty": {
+        "id": 101276,
+        "key": "material-101276",
+        "name": "植绒草",
+        "type": "至冬区域特产",
+        "description": "一度被怀疑是植物与动物结合后的奇妙植株，但后来被证明只不过是单纯长着类似动物绒毛的植物罢了。",
+        "icon": {
+          "filename": "UI_ItemIcon_101276",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101276.png",
+          "fallbackUrls": []
+        }
+      }
+    },
+    {
+      "id": 10000150,
+      "key": "odette",
+      "name": "奥黛塔",
+      "region": "至冬",
+      "element": "冰",
+      "weapon": "单手剑",
+      "icon": {
+        "filename": "UI_AvatarIcon_Odette",
+        "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_AvatarIcon_Odette.png",
+        "fallbackUrls": []
+      },
+      "regionalSpecialty": {
+        "id": 101275,
+        "key": "material-101275",
+        "name": "霜仙花",
+        "type": "至冬区域特产",
+        "description": "不管风雪多么严苛亦会绽放的圣洁花朵，总是散发着微弱的令人向往的光芒。",
+        "icon": {
+          "filename": "UI_ItemIcon_101275",
+          "url": "https://1835135675.cdn.123clouddisk.com/1835135675/cdn/genshin/UI/UI_ItemIcon_101275.png",
+          "fallbackUrls": []
         }
       }
     }
